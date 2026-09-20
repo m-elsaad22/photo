@@ -142,6 +142,7 @@
     if (e.key === "Escape") closeLightbox();
   });
 
+  var revealEls = document.querySelectorAll(".reveal");
   if ("IntersectionObserver" in window) {
     var io = new IntersectionObserver(function (entries) {
       entries.forEach(function (entry) {
@@ -150,10 +151,13 @@
           io.unobserve(entry.target);
         }
       });
-    }, { threshold: 0.12, rootMargin: "0px 0px -8% 0px" });
-    document.querySelectorAll(".reveal").forEach(function (el) { io.observe(el); });
+    }, { threshold: 0.08, rootMargin: "80px 0px 10% 0px" });
+    revealEls.forEach(function (el) { io.observe(el); });
+    setTimeout(function () {
+      revealEls.forEach(function (el) { el.classList.add("is-in"); });
+    }, 1400);
   } else {
-    document.querySelectorAll(".reveal").forEach(function (el) { el.classList.add("is-in"); });
+    revealEls.forEach(function (el) { el.classList.add("is-in"); });
   }
 
   void phone;

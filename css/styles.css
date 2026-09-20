@@ -234,7 +234,7 @@ button:focus-visible {
 .header {
   position: sticky;
   top: 0;
-  z-index: 80;
+  z-index: 100;
   height: var(--header-h);
   display: flex;
   align-items: center;
@@ -359,8 +359,8 @@ button:focus-visible {
 .drawer {
   position: fixed;
   inset: 0;
-  z-index: 70;
-  background: rgba(7, 7, 8, 0.96);
+  z-index: 90;
+  background: #070708;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -387,6 +387,17 @@ button:focus-visible {
   margin-top: 28px;
 }
 body.nav-open { overflow: hidden; }
+body.nav-open .float-btns,
+body:has(dialog.lightbox[open]) .float-btns {
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.hero,
+.section,
+.booking {
+  scroll-margin-top: 72px;
+}
 
 .hero {
   position: relative;
@@ -405,10 +416,11 @@ body.nav-open { overflow: hidden; }
 .hero-media img {
   width: 100%;
   height: 100%;
+  max-width: none;
 }
 .hero-media img {
   object-fit: cover;
-  object-position: 62% 50%;
+  object-position: 70% 50%;
   transform: scale(1.04);
   animation: heroZoom 22s var(--ease) forwards;
 }
@@ -432,7 +444,7 @@ body.nav-open { overflow: hidden; }
 .hero-content {
   position: relative;
   z-index: 2;
-  padding: 0 0 108px;
+  padding: 0 0 120px;
   width: min(1180px, calc(100% - 40px));
   margin-inline: auto;
 }
@@ -453,6 +465,7 @@ body.nav-open { overflow: hidden; }
 }
 
 .hero-ar {
+  display: inline-block;
   font-size: 0.95rem;
   color: var(--gray-300);
   margin-bottom: 16px;
@@ -494,12 +507,17 @@ body.nav-open { overflow: hidden; }
   min-height: 420px;
   overflow: hidden;
 }
+.about-visual picture,
 .about-visual img {
+  position: absolute;
+  inset: 0;
   width: 100%;
   height: 100%;
+  max-width: none;
+}
+.about-visual img {
   object-fit: cover;
   object-position: center 18%;
-  min-height: 420px;
 }
 .about-copy h2 { font-size: clamp(2rem, 4vw, 3.2rem); margin-bottom: 18px; }
 .about-copy p + p { margin-top: 14px; }
@@ -512,7 +530,6 @@ body.nav-open { overflow: hidden; }
     align-items: center;
   }
   .about-visual { min-height: 640px; }
-  .about-visual img { min-height: 640px; }
 }
 
 .services-layout {
@@ -548,12 +565,17 @@ body.nav-open { overflow: hidden; }
   min-height: 360px;
   overflow: hidden;
 }
+.services-aside picture,
 .services-aside img {
+  position: absolute;
+  inset: 0;
   width: 100%;
   height: 100%;
+  max-width: none;
+}
+.services-aside img {
   object-fit: cover;
-  object-position: center;
-  min-height: 360px;
+  object-position: center 42%;
 }
 .services-aside figcaption {
   position: absolute;
@@ -576,7 +598,6 @@ body.nav-open { overflow: hidden; }
     top: 88px;
     min-height: 720px;
   }
-  .services-aside img { min-height: 720px; }
 }
 
 .why-grid {
@@ -584,13 +605,19 @@ body.nav-open { overflow: hidden; }
   gap: 40px;
 }
 .why-visual {
+  position: relative;
   min-height: 420px;
   overflow: hidden;
 }
+.why-visual picture,
 .why-visual img {
+  position: absolute;
+  inset: 0;
   width: 100%;
   height: 100%;
-  min-height: 420px;
+  max-width: none;
+}
+.why-visual img {
   object-fit: cover;
   object-position: center 20%;
 }
@@ -613,8 +640,7 @@ body.nav-open { overflow: hidden; }
     gap: 80px;
     align-items: center;
   }
-  .why-visual,
-  .why-visual img { min-height: 680px; }
+  .why-visual { min-height: 680px; }
 }
 
 .steps {
@@ -677,6 +703,10 @@ body.nav-open { overflow: hidden; }
   object-fit: cover;
   transition: transform 0.8s var(--ease);
 }
+.g-2 img,
+.g-5 img,
+.g-6 img { object-position: center 22%; }
+.g-3 img { object-position: center 48%; }
 .gallery-item:hover img { transform: scale(1.05); }
 .gallery-item[hidden] { display: none !important; }
 
@@ -751,11 +781,13 @@ body.nav-open { overflow: hidden; }
   overflow: hidden;
 }
 .booking-media,
+.booking-media picture,
 .booking-media img {
   position: absolute;
   inset: 0;
   width: 100%;
   height: 100%;
+  max-width: none;
 }
 .booking-media img {
   object-fit: cover;

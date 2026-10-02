@@ -1,0 +1,28 @@
+{
+  "name": "ركن التطور — خدمات منزلية متكاملة في الإمارات",
+  "short_name": "ركن التطور",
+  "description": "كشف تسربات، عزل، صيانة، تنظيف ومكافحة حشرات في جميع إمارات الدولة. احجز عبر واتساب أو الاتصال.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#061428",
+  "theme_color": "#014098",
+  "lang": "ar",
+  "dir": "rtl",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "favicon.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}

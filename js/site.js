@@ -46,9 +46,10 @@
   if (year) year.textContent = String(new Date().getFullYear());
 
   var header = document.getElementById("header");
+  var floats = document.querySelector(".float-btns");
   var onScroll = function () {
-    if (!header) return;
-    header.classList.toggle("is-scrolled", window.scrollY > 12);
+    if (header) header.classList.toggle("is-scrolled", window.scrollY > 12);
+    if (floats) floats.classList.toggle("is-visible", window.scrollY > 240);
   };
   onScroll();
   window.addEventListener("scroll", onScroll, { passive: true });

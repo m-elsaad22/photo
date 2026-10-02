@@ -61,6 +61,11 @@ img { max-width: 100%; display: block; }
 a { color: inherit; text-decoration: none; }
 button, input, select { font-family: inherit; }
 
+.ltr-num {
+  direction: ltr;
+  unicode-bidi: isolate;
+}
+
 h1, h2, h3, h4 {
   font-family: var(--font-display);
   font-weight: 600;
@@ -400,6 +405,10 @@ body.nav-open { overflow: hidden; }
 }
 @media (min-width: 640px) {
   .quote-grid { grid-template-columns: 1fr 1fr auto; align-items: end; }
+}
+@media (max-width: 639px) {
+  .quote-card { padding-bottom: 28px; }
+  .quote-card .btn { width: 100%; }
 }
 .field label {
   display: block;
@@ -761,6 +770,15 @@ body.nav-open { overflow: hidden; }
   display: flex;
   flex-direction: column;
   gap: 10px;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(8px);
+  transition: opacity 0.3s var(--ease), transform 0.3s var(--ease);
+}
+.float-btns.is-visible {
+  opacity: 1;
+  pointer-events: auto;
+  transform: none;
 }
 .float-btn {
   width: 52px;

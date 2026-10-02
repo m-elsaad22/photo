@@ -296,7 +296,7 @@ select:focus-visible {
   display: flex;
   flex-direction: column;
   gap: 6px;
-  transform: translateX(-110%);
+  transform: translateX(110%);
   transition: transform 0.4s var(--ease);
   border-inline-start: 1px solid var(--line);
 }

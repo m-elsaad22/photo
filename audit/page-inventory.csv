@@ -1,0 +1,18 @@
+url,title_current,primary_keyword,secondary_keywords,page_type,content_quality,seo_title,meta_description,h1,canonical,schema,indexing_status,recommendation
+https://elsaidey-lawyer.tanceq.com/,مؤسسة الصعيدي (بدون title tag),محامي / مكتب محاماة,استشارات قانونية; محامي المنصورة,landing (KAYAN),جيد — محتوى غني,MISSING,MISSING,موجود في HTML,MISSING,MISSING,غير متاح (لا GSC),تحسين — P0 SEO head + روابط legal-services
+https://elsaidey-lawyer.tanceq.com/contact-us/,تواصل معنا,رقم محامي,استشارة محامي,page,جيد — جديد,غير مؤكد Rank Math,غير مؤكد,طلب استشارة قانونية,https://elsaidey-lawyer.tanceq.com/contact-us/,غير مؤكد,غير متاح,إبقاء + Rank Math meta
+https://elsaidey-lawyer.tanceq.com/about/,من نحن,مكتب محاماة,مؤسسة محاماة,page,متوسط — يحتاج توسيع,غير مؤكد,غير مؤكد,من نحن,canonical موجود,غير مؤكد,غير متاح,تحسين + FAQ
+https://elsaidey-lawyer.tanceq.com/legal-services/,الخدمات القanونية,خدمات محاماة,,hub,جيد,غير مؤكد,غير مؤكد,خدمات المحاماة,canonical,غير مؤكد,غير متاح,إبقاء + internal links من الرئيسية
+https://elsaidey-lawyer.tanceq.com/legal-services/criminal-cases/,القضايا الجنائية,محامي جنائي,جنايات; دفاع جنائي,service,جيد — أصلي,غير مؤكد,غير مؤكد,ضمن المحتوى,canonical,غير مؤكد,غير متاح,إبقاء + Schema LegalService
+https://elsaidey-lawyer.tanceq.com/legal-services/family-law/,قضايا الأسرة,محامي أسرة,طلاق; نفقة,service,جيد,غير مؤكد,غير مؤكد,,canonical,غير مؤكد,غير متاح,إبقاء
+https://elsaidey-lawyer.tanceq.com/legal-services/civil-cases/,المدني,محامي مدني,تعويضات,service,جيد,غير مؤكد,غير مؤكد,,canonical,غير مؤكd,غير متاح,إبقاء
+https://elsaidey-lawyer.tanceq.com/legal-services/commercial-law/,التجاري,محامي تجاري,تأسيس شركات,service,جيد,غير مؤكد,غير مؤكد,,canonical,غير مؤكد,غير متاح,إبقاء
+https://elsaidey-lawyer.tanceq.com/legal-services/contracts-disputes/,العقود,محامي عقود,,service,جيد,غير مؤكد,غير مؤكد,,canonical,غير مؤكد,غير متاح,إبقاء
+https://elsaidey-lawyer.tanceq.com/legal-services/prosecution-investigations/,النيابة,محامي نيابة,حضور تحقيق,service,جيد,غير مؤكd,غير مؤكd,,canonical,غير مؤكd,غير متاح,إبقاء
+https://elsaidey-lawyer.tanceq.com/legal-services/appeals-cassation/,استئناf,محامي استئناf,مجلس الدولة,service,جيد,غير مؤكd,غير مؤكd,,canonical,غير مؤكd,غير متاح,إبقاء
+https://elsaidey-lawyer.tanceq.com/legal-services/legal-consultations/,استشارات,استشارات قanونية,,service,جيد,غير مؤكd,غير مؤكd,,canonical,غير مؤكd,غير متاح,إبقاء
+https://elsaidey-lawyer.tanceq.com/legal-services/lawyer-talkha-mansoura/,محلي,محامي المنصورة; محامي طلخa,,local service,جيد,غير مؤكd,غير مؤكd,,canonical,غير مؤكd,غير متاح,إبقاء + GBP
+https://elsaidey-lawyer.tanceq.com/blog/,المدونة,,,blog index,ضعيف — placeholder,غير مؤكd,غير مؤكd,,canonical,غير مؤكd,غير متاح,تحسين + ربط مسودات
+https://elsaidey-lawyer.tanceq.com/privacy-policy/,سياسة الخصوصية,,,policy,أساسي,غير مؤكd,غير مؤكd,,canonical,غير مؤكd,غير متاح,تحسين نص
+https://elsaidey-lawyer.tanceq.com/sample-page/,Sample Page,draft,redirect,page,سيء — WP default,—,—,—,—,—,draft,إبقاء draft — تم
+https://elsaidey-lawyer.tanceq.com/services/,—,—,—,CPT archive,خطأ 500,—,—,—,—,—,noindex error,إصلاح قالب أو redirect إلى legal-services

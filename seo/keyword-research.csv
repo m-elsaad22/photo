@@ -1,0 +1,28 @@
+keyword,topic_group,search_intent,current_page_url,proposed_page_url,priority,service_relevance,needs_verification,cannibalization_notes
+محامي,1-عام,إيجاد محامٍ,https://elsaidey-lawyer.tanceq.com/,https://elsaidey-lawyer.tanceq.com/,عالية,مرتفع,لا,ركز على الرئيسية وAbout
+مكتب محاماة,1-عام,اختيار مكتب,https://elsaidey-lawyer.tanceq.com/about/,https://elsaidey-lawyer.tanceq.com/about/,عالية,مرتفع,لا,
+مؤسسة محاماة,1-عام,ثقة وهوية,https://elsaidey-lawyer.tanceq.com/,https://elsaidey-lawyer.tanceq.com/about/,متوسطة,مرتفع,لا,
+استشارات قانونية,1-عام,طلب رأي,https://elsaidey-lawyer.tanceq.com/legal-services/legal-consultations/,https://elsaidey-lawyer.tanceq.com/legal-services/legal-consultations/,عالية,مرتفع,لا,
+استشارة محامٍ,1-عام,تواصل,https://elsaidey-lawyer.tanceq.com/contact-us/,https://elsaidey-lawyer.tanceq.com/contact-us/,عالية,مرتفع,لا,
+رقم محامٍ,1-عام,اتصال,https://elsaidey-lawyer.tanceq.com/contact-us/,https://elsaidey-lawyer.tanceq.com/contact-us/,عالية,مرتفع,نعم — توحيد واتساب,رقمان واتساب على الرئيسية
+محامٍ جنائي,2-جنائي,تمثيل,https://elsaidey-lawyer.tanceq.com/legal-services/criminal-cases/,https://elsaidey-lawyer.tanceq.com/legal-services/criminal-cases/,عالية,مرتفع,تأكيد الخدمة,لا صفحة لكل نوع جريمة
+محامٍ جنايات,2-جنائي,تمثيل,,https://elsaidey-lawyer.tanceq.com/legal-services/criminal-cases/,عالية,مرتفع,تأكيد,H2 داخل صفحة الجنائي
+محامٍ جنح,2-جنائي,تمثيل,,https://elsaidey-lawyer.tanceq.com/legal-services/criminal-cases/,متوسطة,مرتفع,تأكيد,H2
+محامٍ دفاع جنائي,2-جنائي,دفاع,,https://elsaidey-lawyer.tanceq.com/legal-services/criminal-cases/,عالية,مرتفع,تأكيد,
+محامٍ نيابة,3-نيابة,تحقيق,https://elsaidey-lawyer.tanceq.com/legal-services/prosecution-investigations/,https://elsaidey-lawyer.tanceq.com/legal-services/prosecution-investigations/,عالية,مرتفع,تأكيد,
+محامٍ حضور تحقيق,3-نيابة,تحقيق,,https://elsaidey-lawyer.tanceq.com/legal-services/prosecution-investigations/,عالية,مرتفع,تأكيد,
+محامٍ محكمة الأسرة,5-أسرة,أسرة,https://elsaidey-lawyer.tanceq.com/legal-services/family-law/,https://elsaidey-lawyer.tanceq.com/legal-services/family-law/,عالية,مرتفع,تأكيد,
+محامٍ طلاق,5-أسرة,طلاق,,https://elsaidey-lawyer.tanceq.com/legal-services/family-law/,عالية,مرتفع,تأكيد,H2
+محامٍ نفقة,5-أسرة,نفقة,,https://elsaidey-lawyer.tanceq.com/legal-services/family-law/,متوسطة,مرتفع,تأكيد,H2
+محامٍ مدني,6-مدني,مدني,https://elsaidey-lawyer.tanceq.com/legal-services/civil-cases/,https://elsaidey-lawyer.tanceq.com/legal-services/civil-cases/,متوسطة,مرتفع,تأكيد,
+محامٍ تعويضات,6-مدني,تعويض,,https://elsaidey-lawyer.tanceq.com/legal-services/civil-cases/,متوسطة,مرتفع,تأكيد,
+محامٍ تجاري,6-تجاري,تجاري,https://elsaidey-lawyer.tanceq.com/legal-services/commercial-law/,https://elsaidey-lawyer.tanceq.com/legal-services/commercial-law/,متوسطة,مرتفع,تأكيد,
+محامٍ تأسيس شركات,6-تجاري,شركات,,https://elsaidey-lawyer.tanceq.com/legal-services/commercial-law/,متوسطة,مرتفع,تأكيد,
+محامٍ عقود,6-عقود,عقود,https://elsaidey-lawyer.tanceq.com/legal-services/contracts-disputes/,https://elsaidey-lawyer.tanceq.com/legal-services/contracts-disputes/,متوسطة,مرتفع,تأكيد,
+محامٍ استئناف,4-محاكم,طعن,https://elsaidey-lawyer.tanceq.com/legal-services/appeals-cassation/,https://elsaidey-lawyer.tanceq.com/legal-services/appeals-cassation/,عالية,مرتفع,تأكيد,
+محامٍ مجلس الدولة,4-محاكم,إداري,,https://elsaidey-lawyer.tanceq.com/legal-services/appeals-cassation/,متوسطة,مرتفع,تأكيد,
+محامٍ في المنصورة,7-محلي,محلي,https://elsaidey-lawyer.tanceq.com/legal-services/lawyer-talkha-mansoura/,https://elsaidey-lawyer.tanceq.com/legal-services/lawyer-talkha-mansoura/,عالية,مرتفع,تأكيد العنوان,صفحة محلية واحدة
+محامٍ في طلخا,7-محلي,محلي,https://elsaidey-lawyer.tanceq.com/legal-services/lawyer-talkha-mansoura/,https://elsaidey-lawyer.tanceq.com/legal-services/lawyer-talkha-mansoura/,عالية,مرتفع,تأكيد العنوان,نفس URL
+أفضل محامٍ في مصر,1-عام,مقارنة,,https://elsaidey-lawyer.tanceq.com/about/,منخفضة,متوسط,نعم,تجنب «أفضل» بدون دليل
+محامٍ معتمد,1-عام,ثقة,,https://elsaidey-lawyer.tanceq.com/about/,منخفضة,متوسط,نعم — نقابة,لا ادعاء
+محامٍ بالقرب مني,7-محلي,near me,,https://elsaidey-lawyer.tanceq.com/legal-services/lawyer-talkha-mansoura/,متوسطة,متوسط,GBP,Google Business Profile

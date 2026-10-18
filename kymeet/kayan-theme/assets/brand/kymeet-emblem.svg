@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="KYMEET emblem">
+  <defs>
+    <linearGradient id="kymeetGold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#9A7F4B"/>
+      <stop offset="50%" stop-color="#D4BD8A"/>
+      <stop offset="100%" stop-color="#9A7F4B"/>
+    </linearGradient>
+  </defs>
+  <g fill="url(#kymeetGold)" stroke="url(#kymeetGold)" stroke-width=".4" stroke-linejoin="round">
+    <path d="M50 14 L54 30 L48 30 Z"/>
+    <path d="M42 18 L46 34 L40 34 Z"/>
+    <path d="M58 18 L60 34 L54 34 Z"/>
+    <path d="M34 24 L40 38 L33 38 Z"/>
+    <path d="M66 24 L67 38 L60 38 Z"/>
+    <path d="M30 40 Q50 52 70 40 L68 46 Q50 56 32 46 Z"/>
+    <rect x="42" y="48" width="16" height="6" rx="1.5"/>
+    <rect x="44" y="56" width="12" height="3" rx="1"/>
+    <path d="M22 62 Q32 58 38 66 Q30 74 22 68 Z"/>
+    <path d="M78 62 Q68 58 62 66 Q70 74 78 68 Z"/>
+    <path d="M26 74 Q36 70 40 78 Q32 84 26 78 Z"/>
+    <path d="M74 74 Q64 70 60 78 Q68 84 74 78 Z"/>
+    <path d="M46 68 Q50 64 54 68 L52 84 L48 84 Z"/>
+  </g>
+</svg>

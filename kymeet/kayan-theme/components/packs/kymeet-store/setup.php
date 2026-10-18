@@ -294,6 +294,7 @@ if ( ! function_exists( 'kymeet_store_clean_widget_list' ) ) {
 }
 
 require_once dirname( __FILE__ ) . '/admin.php';
+require_once dirname( __FILE__ ) . '/enqueue.php';
 require_once dirname( __FILE__ ) . '/routing.php';
 require_once dirname( __FILE__ ) . '/schema.php';
 

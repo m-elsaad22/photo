@@ -1,0 +1,73 @@
+body.kymeet-doc,
+body.kymeet-store-active {
+  font-family: var(--font-ui);
+  font-size: var(--fs-body);
+  line-height: var(--lh-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+body.kymeet-doc.en,
+body.kymeet-lang-en.kymeet-doc {
+  font-family: var(--font-ui-en);
+}
+
+.kymeet-doc h1,
+.kymeet-doc h2,
+.kymeet-doc h3,
+.kymeet-doc .shead h2 {
+  font-family: var(--font-heading-ar);
+  line-height: var(--lh-heading);
+  color: var(--text);
+}
+
+.kymeet-doc .en,
+.kymeet-lang-en .kymeet-doc h1,
+.kymeet-lang-en .kymeet-doc h2 {
+  font-family: var(--font-heading-en);
+}
+
+.kymeet-doc h1 {
+  font-size: clamp(28px, 5vw, 44px);
+  font-weight: 800;
+}
+
+.kymeet-doc h2,
+.kymeet-doc .shead h2 {
+  font-size: clamp(22px, 4.2vw, 32px);
+  font-weight: 700;
+}
+
+.kymeet-doc h3 {
+  font-size: clamp(18px, 3.5vw, 22px);
+  font-weight: 700;
+}
+
+.kymeet-doc small,
+.kymeet-doc .note {
+  font-size: var(--fs-small);
+  color: var(--muted);
+}
+
+.kymeet-doc .prod-price,
+.kymeet-doc .cart-total b,
+.kymeet-doc .woocommerce-Price-amount {
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum" 1;
+}
+
+@media (min-width: 768px) {
+  body.kymeet-doc,
+  body.kymeet-store-active {
+    font-size: 16px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .kymeet-doc *,
+  .kymeet-doc *::before,
+  .kymeet-doc *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

@@ -1,0 +1,91 @@
+:root {
+  /* Backgrounds — always light */
+  --bg: #ffffff;
+  --bg-soft: #f4f8ff;
+  --surface: #ffffff;
+  --border: #dce6f7;
+
+  /* Royal Metallic Blue (primary) */
+  --royal-900: #061a5c;
+  --royal-700: #0b2d8f;
+  --royal-500: #1b4fd1;
+  --royal-300: #5e86e6;
+  --royal-metal: linear-gradient(
+    135deg,
+    #061a5c 0%,
+    #0b2d8f 38%,
+    #2f5fd9 52%,
+    #0b2d8f 66%,
+    #061a5c 100%
+  );
+
+  /* Pepsi Royal Metallic Blue (secondary / highlights) */
+  --pepsi-700: #0056c7;
+  --pepsi-500: #0a7bff;
+  --pepsi-300: #5cb0ff;
+  --pepsi-metal: linear-gradient(
+    135deg,
+    #0049b0 0%,
+    #0a7bff 40%,
+    #7cc2ff 52%,
+    #0a7bff 64%,
+    #0049b0 100%
+  );
+
+  /* Gold accent (logo + thin details) */
+  --gold: #b79a62;
+  --gold-light: #d4bd8a;
+  --gold-metal: linear-gradient(135deg, #9a7f4b, #d4bd8a 50%, #9a7f4b);
+
+  /* Text */
+  --text: #0f1b3d;
+  --muted: #5f6f8c;
+
+  /* States */
+  --success: #1e8a5a;
+  --error: #c4423f;
+  --warning: #c98a12;
+
+  /* Shape & depth */
+  --radius-sm: 10px;
+  --radius: 16px;
+  --radius-lg: 24px;
+  --radius-pill: 999px;
+  --shadow-1: 0 4px 14px rgba(11, 45, 143, 0.08);
+  --shadow-2: 0 12px 32px rgba(11, 45, 143, 0.14);
+  --shadow-btn: 0 8px 20px rgba(10, 123, 255, 0.28);
+
+  /* Typography scale (mobile-first; overridden in typography.css) */
+  --font-ui: "IBM Plex Sans Arabic", system-ui, sans-serif;
+  --font-heading-ar: "Cairo", "IBM Plex Sans Arabic", sans-serif;
+  --font-heading-en: "Cormorant Garamond", Georgia, serif;
+  --font-ui-en: "Inter", system-ui, sans-serif;
+  --fs-body: 15px;
+  --fs-small: 13px;
+  --lh-body: 1.7;
+  --lh-heading: 1.25;
+}
+
+html {
+  color-scheme: light;
+}
+
+body.kymeet-doc,
+body.kymeet-store-active {
+  background: var(--bg);
+  color: var(--text);
+}
+
+body.kymeet-doc[mode="dark"],
+body.kymeet-store-active[mode="dark"] {
+  background: var(--bg) !important;
+  color: var(--text) !important;
+}
+
+.kymeet-doc .btn-gold,
+.kymeet-store-active .btn-gold {
+  background: var(--royal-metal);
+  color: #fff;
+  border: none;
+  box-shadow: var(--shadow-btn);
+}

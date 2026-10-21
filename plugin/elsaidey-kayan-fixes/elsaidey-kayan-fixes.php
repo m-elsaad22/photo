@@ -1,59 +1,226 @@
 <?php
 /**
  * Plugin Name: Elsaidey KAYAN Fixes
- * Description: Fixes /services/ CPT archive fatal error and restores front-end SEO title/meta when KAYAN SEO head output is missing.
- * Version: 1.0.0
+ * Description: Services CPT archive fix + SEO gap-fill/dedupe for KAYAN/Rank Math (no DB writes).
+ * Version: 1.1.0
  * Author: Cursor Agent
  * License: GPL-2.0-or-later
- * Requires at least: 6.0
- * Requires PHP: 7.4
+ * Requires PHP: 8.0
  */
 
 if (! defined('ABSPATH')) {
     exit;
 }
 
+if (! defined('ELSAIDEY_KAYAN_FIX_ENABLE_SERVICES')) {
+    define('ELSAIDEY_KAYAN_FIX_ENABLE_SERVICES', true);
+}
+
+if (! defined('ELSAIDEY_KAYAN_FIX_ENABLE_SEO')) {
+    define('ELSAIDEY_KAYAN_FIX_ENABLE_SEO', true);
+}
+
 final class Elsaidey_Kayan_Fixes {
-    private const RM_HOMEPAGE_TITLE = 'مؤسسة الصعيدي للمحاماة والاستشارات القانونية | طلخا والمنصورة';
-    private const RM_HOMEPAGE_DESC  = 'مكتب محاماة في طلخا والمنصورة: استشارات قانونية، جنائي، أسرة، مدني وتجاري. المستشار عيد الصعيدي — اتصل أو راسلنا على واتساب.';
+    private const LEGACY_MARKERS = ['مصور', 'MORSY', 'MOHAMED MORSY', 'فوتوغرافي'];
+
+    private const FALLBACK_HOME_TITLE = 'مؤسسة الصعيدي للمحاماة والاستشارات القانونية | طلخا والمنصورة';
+    private const FALLBACK_HOME_DESC  = 'مكتب محاماة في طلخa والمنصورة: استشارات قانونية، جنائي، أسرة، مدني وتجاري. المستشار عيد الصعيدي — اتصل أو راسلنا على واتساب.';
 
     public static function boot(): void {
-        register_activation_hook(__FILE__, [self::class, 'on_activate']);
-        add_action('template_redirect', [self::class, 'render_services_archive'], 9);
-        add_action('wp_head', [self::class, 'emit_document_seo'], 0);
+        if (ELSAIDEY_KAYAN_FIX_ENABLE_SERVICES) {
+            add_action('template_redirect', [self::class, 'render_services_archive'], 9);
+        }
+        if (ELSAIDEY_KAYAN_FIX_ENABLE_SEO) {
+            add_action('template_redirect', [self::class, 'start_html_buffer'], 1);
+        }
     }
 
-    public static function on_activate(): void {
-        self::maybe_patch_rank_math_homepage();
-    }
-
-    private static function maybe_patch_rank_math_homepage(): void {
-        $opts = get_option('rank-math-options-titles');
-        if (! is_array($opts)) {
+    public static function start_html_buffer(): void {
+        if (is_admin() || wp_doing_ajax() || wp_doing_cron() || (defined('REST_REQUEST') && REST_REQUEST)) {
             return;
         }
-        $changed = false;
-        if (empty($opts['homepage_title']) || str_contains((string) $opts['homepage_title'], 'مصور')) {
-            $opts['homepage_title'] = self::RM_HOMEPAGE_TITLE;
-            $changed                = true;
+        if (is_feed()) {
+            return;
         }
-        if (empty($opts['homepage_description']) || str_contains((string) $opts['homepage_description'], 'مصور')) {
-            $opts['homepage_description'] = self::RM_HOMEPAGE_DESC;
-            $changed                      = true;
-        }
-        if (! empty($opts['knowledgegraph_name']) && str_contains((string) $opts['knowledgegraph_name'], 'MORSY')) {
-            $opts['knowledgegraph_name'] = 'مؤسسة الصعيدي للمحاماة والاستشارات القانونية';
-            $changed                     = true;
-        }
-        if ($changed) {
-            update_option('rank-math-options-titles', $opts);
-        }
+        ob_start([self::class, 'process_html']);
     }
 
     /**
-     * KAYAN @archive/shape.php falls back to default.php for post-type archives when
-     * archive-{post_type}.php is missing; default.php expects WP_Term → fatal on PHP 8.1+.
+     * Post-process full HTML: dedupe SEO tags; inject only when missing (never call KAYAN output functions).
      */
+    public static function process_html(string $html): string {
+        if ($html === '' || stripos($html, '<html') === false) {
+            return $html;
+        }
+
+        $html = self::dedupe_head_tags($html, 'title', '/<title\b[^>]*>.*?<\/title>/is');
+        $html = self::dedupe_head_tags($html, 'meta-description', '/<meta\s[^>]*name\s*=\s*["\']description["\'][^>]*>/is');
+        $html = self::dedupe_head_tags($html, 'canonical', '/<link\s[^>]*rel\s*=\s*["\']canonical["\'][^>]*>/is');
+
+        $title   = self::resolve_title_string();
+        $desc    = self::resolve_description_string();
+        $canonical = self::resolve_canonical_url();
+
+        if (! preg_match('/<title\b[^>]*>.*?<\/title>/is', $html) && $title !== '') {
+            $inject = '<title>' . esc_html($title) . '</title>' . "\n";
+            $html   = preg_replace('/<head(\s[^>]*)?>/i', '<head$1>' . "\n" . $inject, $html, 1);
+        }
+
+        if (! preg_match('/<meta\s[^>]*name\s*=\s*["\']description["\']/i', $html) && $desc !== '') {
+            $inject = '<meta name="description" content="' . esc_attr($desc) . '" />' . "\n";
+            $html   = preg_replace('/<head(\s[^>]*)?>/i', '<head$1>' . "\n" . $inject, $html, 1);
+        }
+
+        if ($canonical !== '' && ! preg_match('/<link\s[^>]*rel\s*=\s*["\']canonical["\']/i', $html)) {
+            $inject = '<link rel="canonical" href="' . esc_url($canonical) . '" />' . "\n";
+            $html   = preg_replace('/<head(\s[^>]*)?>/i', '<head$1>' . "\n" . $inject, $html, 1);
+        }
+
+        return $html;
+    }
+
+    private static function dedupe_head_tags(string $html, string $label, string $pattern): string {
+        if (! preg_match_all($pattern, $html, $matches, PREG_OFFSET_CAPTURE)) {
+            return $html;
+        }
+        if (count($matches[0]) <= 1) {
+            return $html;
+        }
+        $parts = $matches[0];
+        for ($i = count($parts) - 1; $i >= 1; $i--) {
+            $chunk = $parts[$i][0];
+            $html  = str_replace($chunk, '', $html);
+        }
+        return $html;
+    }
+
+    private static function is_legacy_seo_text(string $text): bool {
+        foreach (self::LEGACY_MARKERS as $marker) {
+            if ($marker !== '' && stripos($text, $marker) !== false) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    private static function resolve_title_string(): string {
+        if (function_exists('kayan_seo_get_document_title')) {
+            $t = wp_strip_all_tags((string) kayan_seo_get_document_title());
+            if ($t !== '' && ! self::is_legacy_seo_text($t)) {
+                return $t;
+            }
+        }
+        if (function_exists('kayan_seo_get_title')) {
+            $t = wp_strip_all_tags((string) kayan_seo_get_title());
+            if ($t !== '' && ! self::is_legacy_seo_text($t)) {
+                return $t;
+            }
+        }
+
+        if (is_front_page() || (is_home() && get_option('show_on_front') === 'posts')) {
+            $opts = get_option('rank-math-options-titles');
+            if (is_array($opts) && ! empty($opts['homepage_title'])) {
+                $t = wp_strip_all_tags((string) $opts['homepage_title']);
+                if ($t !== '' && ! self::is_legacy_seo_text($t)) {
+                    return $t;
+                }
+            }
+            return self::FALLBACK_HOME_TITLE;
+        }
+
+        if (is_post_type_archive('services')) {
+            $pt = get_post_type_object('services');
+            if ($pt && ! empty($pt->labels->name)) {
+                $name = wp_strip_all_tags($pt->labels->name);
+                $site = function_exists('kayan_seo_get_site_name') ? kayan_seo_get_site_name() : get_bloginfo('name');
+                if ($site && stripos($name, $site) === false) {
+                    return $name . ' | ' . wp_strip_all_tags($site);
+                }
+                return $name;
+            }
+            return 'الخدمات';
+        }
+
+        if (is_singular()) {
+            return wp_strip_all_tags(get_the_title());
+        }
+
+        if (is_category() || is_tag() || is_tax()) {
+            $obj = get_queried_object();
+            if ($obj && ! empty($obj->name)) {
+                return wp_strip_all_tags($obj->name);
+            }
+        }
+
+        return wp_strip_all_tags(get_bloginfo('name'));
+    }
+
+    private static function resolve_description_string(): string {
+        if (function_exists('kayan_seo_get_description')) {
+            $d = wp_strip_all_tags((string) kayan_seo_get_description());
+            if ($d !== '' && ! self::is_legacy_seo_text($d)) {
+                return $d;
+            }
+        }
+
+        if (is_front_page() || (is_home() && get_option('show_on_front') === 'posts')) {
+            $opts = get_option('rank-math-options-titles');
+            if (is_array($opts) && ! empty($opts['homepage_description'])) {
+                $d = wp_strip_all_tags((string) $opts['homepage_description']);
+                if ($d !== '' && ! self::is_legacy_seo_text($d)) {
+                    return $d;
+                }
+            }
+            return self::FALLBACK_HOME_DESC;
+        }
+
+        if (is_post_type_archive('services')) {
+            $pt = get_post_type_object('services');
+            if ($pt && ! empty($pt->description)) {
+                return wp_strip_all_tags($pt->description);
+            }
+            return 'استعرض خدمات مؤسسة الصعيدي للمحاماة والاستشارات القانونية المنشورة.';
+        }
+
+        if (is_singular()) {
+            $excerpt = get_the_excerpt();
+            if ($excerpt) {
+                return wp_strip_all_tags($excerpt);
+            }
+        }
+
+        $tagline = get_bloginfo('description');
+        if ($tagline && ! self::is_legacy_seo_text($tagline)) {
+            return wp_strip_all_tags($tagline);
+        }
+
+        return '';
+    }
+
+    private static function resolve_canonical_url(): string {
+        if (function_exists('kayan_seo_get_canonical_url')) {
+            $u = (string) kayan_seo_get_canonical_url();
+            if ($u !== '') {
+                return $u;
+            }
+        }
+        if (is_singular()) {
+            return (string) get_permalink();
+        }
+        if (is_front_page()) {
+            return home_url('/');
+        }
+        if (is_post_type_archive('services')) {
+            $link = get_post_type_archive_link('services');
+            return $link ? (string) $link : '';
+        }
+        if (is_category() || is_tag() || is_tax()) {
+            $link = get_term_link(get_queried_object());
+            return is_wp_error($link) ? '' : (string) $link;
+        }
+        return '';
+    }
+
     public static function render_services_archive(): void {
         if (is_admin() || wp_doing_ajax() || wp_doing_cron()) {
             return;
@@ -66,7 +233,10 @@ final class Elsaidey_Kayan_Fixes {
         }
 
         global $ThemeStatic;
-        $theme = ($ThemeStatic instanceof ThemeStatic) ? $ThemeStatic : new ThemeStatic();
+        if (! ($ThemeStatic instanceof ThemeStatic)) {
+            return;
+        }
+        $theme = $ThemeStatic;
 
         $styles = [
             'kayan-home'  => 'kayan-home.css',
@@ -112,14 +282,14 @@ final class Elsaidey_Kayan_Fixes {
         $theme->Part(
             'Posts',
             [
-                'object__type'       => 'posts',
-                'object__name'       => 'services',
-                'part_object__name'  => 'services',
-                'part__name'         => 'Post-box',
-                'ScrollLoader'       => true,
-                'per'                => 12,
-                'show__empty_part'   => 'object--empty',
-                'data__empty_part'   => [
+                'object__type'      => 'posts',
+                'object__name'      => 'services',
+                'part_object__name' => 'services',
+                'part__name'        => 'Post-box',
+                'ScrollLoader'      => true,
+                'per'               => 12,
+                'show__empty_part'  => 'object--empty',
+                'data__empty_part'  => [
                     '__empty_icon'        => '<i class="fa-solid fa-ban"></i>',
                     '__empty_title'       => 'لا توجد خدمات منشورة',
                     '__empty_description' => '<a href="' . esc_url(home_url('/')) . '">الرئيسية</a>',
@@ -131,111 +301,6 @@ final class Elsaidey_Kayan_Fixes {
 
         $theme->Part('footer', ['Styles' => $styles]);
         exit;
-    }
-
-    /**
-     * KAYAN SEO bridge disables Rank Math head output; when theme hooks fail, pages have no title/description.
-     * Prefer KAYAN SEO helpers (Rank Math settings as source); no duplicate if already printed.
-     */
-    public static function emit_document_seo(): void {
-        static $done = false;
-        if ($done) {
-            return;
-        }
-
-        $title_html = '';
-        $meta_html  = '';
-
-        if (function_exists('kayan_seo_output_document_title_tag')) {
-            ob_start();
-            kayan_seo_output_document_title_tag();
-            $title_html = (string) ob_get_clean();
-        }
-        if (function_exists('kayan_seo_render_head_meta')) {
-            ob_start();
-            kayan_seo_render_head_meta();
-            $meta_html = (string) ob_get_clean();
-        }
-
-        if ($title_html === '' || ! preg_match('/<title\b/i', $title_html)) {
-            $title = self::resolve_fallback_title();
-            if ($title !== '') {
-                $title_html = '<title>' . esc_html($title) . '</title>' . "\n";
-            }
-        }
-
-        if ($meta_html === '' || ! preg_match('/name=["\']description["\']/i', $meta_html)) {
-            $desc = self::resolve_fallback_description();
-            if ($desc !== '') {
-                $meta_html = '<meta name="description" content="' . esc_attr($desc) . '" />' . "\n";
-            }
-        }
-
-        if ($title_html !== '') {
-            echo $title_html; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
-        }
-        if ($meta_html !== '') {
-            echo $meta_html; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
-        }
-
-        $done = true;
-    }
-
-    private static function resolve_fallback_title(): string {
-        if (function_exists('kayan_seo_get_document_title')) {
-            $t = kayan_seo_get_document_title();
-            if ($t !== '') {
-                return $t;
-            }
-        }
-        if (is_front_page() || (is_home() && get_option('show_on_front') === 'posts')) {
-            $opts = get_option('rank-math-options-titles');
-            if (is_array($opts) && ! empty($opts['homepage_title'])) {
-                return wp_strip_all_tags($opts['homepage_title']);
-            }
-            return self::RM_HOMEPAGE_TITLE;
-        }
-        if (is_singular()) {
-            return wp_strip_all_tags(get_the_title());
-        }
-        return wp_strip_all_tags(get_bloginfo('name'));
-    }
-
-    private static function resolve_fallback_description(): string {
-        if (function_exists('kayan_seo_get_description')) {
-            $d = kayan_seo_get_description();
-            if ($d !== '') {
-                return $d;
-            }
-        }
-        if (is_front_page() || (is_home() && get_option('show_on_front') === 'posts')) {
-            $opts = get_option('rank-math-options-titles');
-            if (is_array($opts) && ! empty($opts['homepage_description'])) {
-                return wp_strip_all_tags($opts['homepage_description']);
-            }
-            return self::RM_HOMEPAGE_DESC;
-        }
-        if (is_singular()) {
-            $excerpt = get_the_excerpt();
-            if ($excerpt) {
-                return wp_strip_all_tags($excerpt);
-            }
-        }
-        return wp_strip_all_tags(get_bloginfo('description'));
-    }
-
-    private static function current_url(): string {
-        if (function_exists('kayan_seo_get_canonical_url')) {
-            $u = kayan_seo_get_canonical_url();
-            if ($u) {
-                return $u;
-            }
-        }
-        global $wp;
-        if (isset($wp) && is_object($wp)) {
-            return home_url(add_query_arg([], $wp->request));
-        }
-        return home_url('/');
     }
 }
 

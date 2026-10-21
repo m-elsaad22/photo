@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Elsaidey KAYAN Fixes
  * Description: Services CPT archive fix + SEO gap-fill/dedupe for KAYAN/Rank Math (no DB writes).
- * Version: 1.1.0
+ * Version: 1.1.2
  * Author: Cursor Agent
  * License: GPL-2.0-or-later
  * Requires PHP: 8.0
@@ -238,17 +238,12 @@ final class Elsaidey_Kayan_Fixes {
         }
         $theme = $ThemeStatic;
 
-        $styles = [
-            'kayan-home'  => 'kayan-home.css',
-            'kayan-inner' => 'kayan-inner.css',
-            'shortcodes'  => 'shortcodes.css',
-        ];
-
         $pt_obj = get_post_type_object('services');
         $title  = $pt_obj && ! empty($pt_obj->labels->name) ? $pt_obj->labels->name : 'الخدمات';
         $sub    = $pt_obj && ! empty($pt_obj->description) ? wp_strip_all_tags($pt_obj->description) : 'جميع خدمات المؤسسة القانونية المنشورة.';
 
-        $theme->Part('header', ['Styles' => $styles]);
+        // Use default header styles (custom Styles map pointed at non-existent paths and caused fatal requires).
+        $theme->Part('header');
 
         echo '<div class="kayan-inner-archive-shell kayan-tax-archive">';
 
@@ -279,27 +274,57 @@ final class Elsaidey_Kayan_Fixes {
         echo '<div class="kayan-inner-body"><div class="kayan-inner-layout kayan-inner-layout--no-sidebar">';
         echo '<section class="kayan-inner-section"><div class="kayan-inner-archive-grid -archivePage-Posts-Grid">';
 
-        $theme->Part(
-            'Posts',
+        $paged          = max(1, (int) get_query_var('paged'));
+        $services_query = new WP_Query(
             [
-                'object__type'      => 'posts',
-                'object__name'      => 'services',
-                'part_object__name' => 'services',
-                'part__name'        => 'Post-box',
-                'ScrollLoader'      => true,
-                'per'               => 12,
-                'show__empty_part'  => 'object--empty',
-                'data__empty_part'  => [
-                    '__empty_icon'        => '<i class="fa-solid fa-ban"></i>',
-                    '__empty_title'       => 'لا توجد خدمات منشورة',
-                    '__empty_description' => '<a href="' . esc_url(home_url('/')) . '">الرئيسية</a>',
-                ],
+                'post_type'      => 'services',
+                'post_status'    => 'publish',
+                'posts_per_page' => 12,
+                'paged'          => $paged,
+                'orderby'        => 'menu_order title',
+                'order'          => 'ASC',
             ]
         );
 
+        if ($services_query->have_posts()) {
+            echo '<div class="services-grid">';
+            while ($services_query->have_posts()) {
+                $services_query->the_post();
+                $permalink = get_permalink();
+                $thumb     = get_the_post_thumbnail_url(get_the_ID(), 'medium_large');
+                echo '<article class="-Post-box-single-item">';
+                echo '<a class="-Post-box-item-Thumb" href="' . esc_url($permalink) . '">';
+                if ($thumb) {
+                    echo '<img src="' . esc_url($thumb) . '" alt="' . esc_attr(get_the_title()) . '" loading="lazy" />';
+                }
+                echo '</a>';
+                echo '<div class="-Post-box-item-Info">';
+                echo '<h3 class="-Post-box-item-Title"><a href="' . esc_url($permalink) . '">' . esc_html(get_the_title()) . '</a></h3>';
+                if (has_excerpt()) {
+                    echo '<p class="-Post-box-item-Excerpt">' . esc_html(wp_strip_all_tags(get_the_excerpt())) . '</p>';
+                }
+                echo '</div></article>';
+            }
+            echo '</div>';
+
+            if ($services_query->max_num_pages > 1) {
+                echo '<nav class="kayan-inner-pagination">';
+                echo paginate_links(
+                    [
+                        'total'   => $services_query->max_num_pages,
+                        'current' => $paged,
+                    ]
+                );
+                echo '</nav>';
+            }
+            wp_reset_postdata();
+        } else {
+            echo '<div class="object--empty"><p>لا توجد خدمات منشورة — <a href="' . esc_url(home_url('/')) . '">الرئيسية</a></p></div>';
+        }
+
         echo '</div></section></div></div></div>';
 
-        $theme->Part('footer', ['Styles' => $styles]);
+        $theme->Part('footer');
         exit;
     }
 }

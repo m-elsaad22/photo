@@ -1,0 +1,111 @@
+[
+  {
+    "url": "/",
+    "status": 200,
+    "title_count": 1,
+    "title": "مؤسسة الصعيدي للمحاماة والاستشارات القانونية | طلخا والمنصورة",
+    "meta_desc_count": 1,
+    "canonical_count": 1,
+    "legacy": false
+  },
+  {
+    "url": "/services/",
+    "status": 200,
+    "title_count": 1,
+    "title": "الخدمات | مؤسسة الصعيدي",
+    "meta_desc_count": 1,
+    "canonical_count": 1,
+    "legacy": false,
+    "service_slugs": 9
+  },
+  {
+    "url": "/services/criminal-cases/",
+    "status": 200,
+    "title_count": 1,
+    "title": "القضايا الجنائية والدفاع الجنائي",
+    "meta_desc_count": 1,
+    "canonical_count": 1,
+    "legacy": false
+  },
+  {
+    "url": "/service-category/criminal-law/",
+    "status": 200,
+    "title_count": 1,
+    "title": "القضايا الجنائية",
+    "meta_desc_count": 1,
+    "canonical_count": 1,
+    "legacy": false
+  },
+  {
+    "url": "/legal-services/",
+    "status": 200,
+    "title_count": 1,
+    "title": "الخدمات القانونية",
+    "meta_desc_count": 1,
+    "canonical_count": 1,
+    "legacy": false
+  },
+  {
+    "url": "/legal-services/criminal-cases/",
+    "status": 200,
+    "title_count": 1,
+    "title": "القضايا الجنائية والدفاع الجنائي",
+    "meta_desc_count": 1,
+    "canonical_count": 1,
+    "legacy": false
+  },
+  {
+    "url": "/contact-us/",
+    "status": 200,
+    "title_count": 1,
+    "title": "تواصل معنا",
+    "meta_desc_count": 1,
+    "canonical_count": 1,
+    "legacy": false
+  },
+  {
+    "url": "/about/",
+    "status": 200,
+    "title_count": 1,
+    "title": "من نحن",
+    "meta_desc_count": 1,
+    "canonical_count": 1,
+    "legacy": false
+  },
+  {
+    "url": "/blog/",
+    "status": 200,
+    "title_count": 1,
+    "title": "المدونة القانونية",
+    "meta_desc_count": 1,
+    "canonical_count": 1,
+    "legacy": false
+  },
+  {
+    "url": "/privacy-policy/",
+    "status": 200,
+    "title_count": 1,
+    "title": "سياسة الخصوصية",
+    "meta_desc_count": 1,
+    "canonical_count": 1,
+    "legacy": false
+  },
+  {
+    "url": "/feed/",
+    "status": 200,
+    "title_count": 2,
+    "title": "مؤسسة الصعيدي",
+    "meta_desc_count": 0,
+    "canonical_count": 0,
+    "legacy": false
+  },
+  {
+    "url": "/sitemap_index.xml",
+    "status": 200,
+    "title_count": 0,
+    "title": "",
+    "meta_desc_count": 0,
+    "canonical_count": 0,
+    "legacy": false
+  }
+]

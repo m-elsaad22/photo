@@ -1,0 +1,1736 @@
+[
+  {
+    "id": 134,
+    "date": "2026-10-17T11:57:42",
+    "date_gmt": "2026-10-17T11:57:42",
+    "guid": {
+      "rendered": "https://elsaidey-lawyer.tanceq.com/blog/"
+    },
+    "modified": "2026-10-17T12:58:26",
+    "modified_gmt": "2026-10-17T12:58:26",
+    "slug": "blog",
+    "status": "publish",
+    "type": "page",
+    "link": "https://elsaidey-lawyer.tanceq.com/blog/",
+    "title": {
+      "rendered": "المدونة القانونية"
+    },
+    "content": {
+      "rendered": "\n<h1 class=\"wp-block-heading\">مدونة مؤسسة الصعيدي</h1>\n\n\n\n<p class=\"wp-block-paragraph\">مقالات للتوعية العامة — لا تغني عن استشارة قانونية مباشرة.</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>مدونة قanونية للتوعية العامة — لا تغني عن استشارة محامٍ.</p>\n",
+      "protected": false
+    },
+    "author": 2,
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "footnotes": "",
+      "kayan_content_lang": "",
+      "kayan_translation_group": "",
+      "kayan_variant_group": "",
+      "kayan_public_slug": "",
+      "kayan_content_visibility": "",
+      "kayan_locale_seo": [],
+      "kayan_pseo_fingerprint": "",
+      "kayan_pseo_pattern_id": "",
+      "kayan_pseo_entities": [],
+      "kayan_pseo_rule_id": "",
+      "kayan_pseo_blueprint": [],
+      "kayan_pseo_template_id": "",
+      "kayan_pseo_source": "",
+      "kayan_pseo_locked_slug": "",
+      "kayan_pseo_media": [],
+      "kayan_workflow_state": "draft"
+    },
+    "class_list": [
+      "post-134",
+      "page",
+      "type-page",
+      "status-publish",
+      "hentry"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/pages/134",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/pages"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/types/page"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/users/2"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/comments?post=134"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 1,
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/pages/134/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 140,
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/pages/134/revisions/140"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/media?parent=134"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 132,
+    "date": "2026-10-17T11:57:36",
+    "date_gmt": "2026-10-17T11:57:36",
+    "guid": {
+      "rendered": "https://elsaidey-lawyer.tanceq.com/legal-services/lawyer-talkha-mansoura/"
+    },
+    "modified": "2026-10-17T12:58:28",
+    "modified_gmt": "2026-10-17T12:58:28",
+    "slug": "lawyer-talkha-mansoura",
+    "status": "publish",
+    "type": "page",
+    "link": "https://elsaidey-lawyer.tanceq.com/legal-services/lawyer-talkha-mansoura/",
+    "title": {
+      "rendered": "محامي في طلخا والمنصورة"
+    },
+    "content": {
+      "rendered": "\n<p class=\"wp-block-paragraph\">مكتب محاماة في طلخا والمنصورة (الدقهلية) مع متابعة عن بُعد في أنحاء مصر.</p>\n\n\n\n<h2 class=\"wp-block-heading\">نطاق الخدمة</h2>\n\n\n\n<ul class=\"wp-block-list\"><li>استشارات حضورية في المقر</li>\n<li>تمثيل أمام محاكم الدقهلية</li>\n<li>متابعة عن بُعد لمحافظات أخرى</li></ul>\n\n\n\n<h2 class=\"wp-block-heading\">كيف نعمل</h2>\n\n\n\n<ul class=\"wp-block-list\"><li>تحديد موعد</li>\n<li>تقييم الملف</li>\n<li>تمثيل أو استشارة</li>\n<li>متابعة</li></ul>\n\n\n\n<h2 class=\"wp-block-heading\">مستندات مفيدة (حسب نوع القضية)</h2>\n\n\n\n<ul class=\"wp-block-list\"><li>حسب نوع القضية</li></ul>\n\n\n\n<h2 class=\"wp-block-heading\">أسئلة شائعة</h2>\n\n\n\n<h3 class=\"wp-block-heading\">هل لديكم فروع أخرى؟</h3>\n\n\n\n<p class=\"wp-block-paragraph\">لا نُعلن فروعاً غير المقر المذكور.</p>\n\n\n\n<h2 class=\"wp-block-heading\">خدمات ذات صلة</h2>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://elsaidey-lawyer.tanceq.com/legal-services/legal-consultations/\">legal consultations</a> · <a href=\"https://elsaidey-lawyer.tanceq.com/legal-services/family-law/\">family law</a></p>\n\n\n\n<h2 class=\"wp-block-heading\">تواصل مع المكتب</h2>\n\n\n\n<p class=\"wp-block-paragraph\">لطلب استشارة، تواصل عبر <a href=\"https://wa.me/201055833331\" target=\"_blank\" rel=\"noopener\">واتساب</a> أو <a href=\"tel:+201002120325\">اتصل على +201002120325</a>. اذكر نوع المشكلة والمستندات المتوفرة دون إرسال بيانات حساسة غير ضرورية.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><em>تنبيه:</em> المعلومات للتوعية العامة ولا تُعد استشارة قانونية ملزمة حتى يتم فحص مستندات القضية. النتائج تختلف بحسب الوقائع والإجراءات.</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>محامٍ في طلخا والمنصورة — الدقهلية ومصر.</p>\n",
+      "protected": false
+    },
+    "author": 2,
+    "featured_media": 0,
+    "parent": 121,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "footnotes": "",
+      "kayan_content_lang": "",
+      "kayan_translation_group": "",
+      "kayan_variant_group": "",
+      "kayan_public_slug": "",
+      "kayan_content_visibility": "",
+      "kayan_locale_seo": [],
+      "kayan_pseo_fingerprint": "",
+      "kayan_pseo_pattern_id": "",
+      "kayan_pseo_entities": [],
+      "kayan_pseo_rule_id": "",
+      "kayan_pseo_blueprint": [],
+      "kayan_pseo_template_id": "",
+      "kayan_pseo_source": "",
+      "kayan_pseo_locked_slug": "",
+      "kayan_pseo_media": [],
+      "kayan_workflow_state": "draft"
+    },
+    "class_list": [
+      "post-132",
+      "page",
+      "type-page",
+      "status-publish",
+      "hentry"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/pages/132",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/pages"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/types/page"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/users/2"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/comments?post=132"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 1,
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/pages/132/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 141,
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/pages/132/revisions/141"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/pages/121"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/media?parent=132"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 131,
+    "date": "2026-10-17T11:57:34",
+    "date_gmt": "2026-10-17T11:57:34",
+    "guid": {
+      "rendered": "https://elsaidey-lawyer.tanceq.com/legal-services/legal-consultations/"
+    },
+    "modified": "2026-10-17T12:58:30",
+    "modified_gmt": "2026-10-17T12:58:30",
+    "slug": "legal-consultations",
+    "status": "publish",
+    "type": "page",
+    "link": "https://elsaidey-lawyer.tanceq.com/legal-services/legal-consultations/",
+    "title": {
+      "rendered": "الاستشارات القانونية"
+    },
+    "content": {
+      "rendered": "\n<p class=\"wp-block-paragraph\">رأي قانوني واضح قبل أي خطوة مصيرية — حضوري أو عن بُعد.</p>\n\n\n\n<h2 class=\"wp-block-heading\">نطاق الخدمة</h2>\n\n\n\n<ul class=\"wp-block-list\"><li>استشارة أولية</li>\n<li>مراجعة مستندات</li>\n<li>خطة إجراءات</li>\n<li>تحويل لتمثيل كامل عند الحاجة</li></ul>\n\n\n\n<h2 class=\"wp-block-heading\">كيف نعمل</h2>\n\n\n\n<ul class=\"wp-block-list\"><li>تحديد السؤال</li>\n<li>تقييم المستندات</li>\n<li>توصية مكتوبة</li>\n<li>متابعة اختيارية</li></ul>\n\n\n\n<h2 class=\"wp-block-heading\">مستندات مفيدة (حسب نوع القضية)</h2>\n\n\n\n<ul class=\"wp-block-list\"><li>عقود</li>\n<li>مراسلات</li>\n<li>أحكام</li></ul>\n\n\n\n<h2 class=\"wp-block-heading\">أسئلة شائعة</h2>\n\n\n\n<h3 class=\"wp-block-heading\">هل الاستشارة تُنشئ علاقة محامٍ/موكل؟</h3>\n\n\n\n<p class=\"wp-block-paragraph\">لا إلا باتفاق صريح على التوكيل.</p>\n\n\n\n<h2 class=\"wp-block-heading\">خدمات ذات صلة</h2>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://elsaidey-lawyer.tanceq.com/legal-services/family-law/\">family law</a> · <a href=\"https://elsaidey-lawyer.tanceq.com/legal-services/commercial-law/\">commercial law</a></p>\n\n\n\n<h2 class=\"wp-block-heading\">تواصل مع المكتب</h2>\n\n\n\n<p class=\"wp-block-paragraph\">لطلب استشارة، تواصل عبر <a href=\"https://wa.me/201055833331\" target=\"_blank\" rel=\"noopener\">واتساب</a> أو <a href=\"tel:+201002120325\">اتصل على +201002120325</a>. اذكر نوع المشكلة والمستندات المتوفرة دون إرسال بيانات حساسة غير ضرورية.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><em>تنبيه:</em> المعلومات للتوعية العامة ولا تُعد استشارة قانونية ملزمة حتى يتم فحص مستندات القضية. النتائج تختلف بحسب الوقائع والإجراءات.</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>استشارات قanونية حضورية وعن بُعد.</p>\n",
+      "protected": false
+    },
+    "author": 2,
+    "featured_media": 0,
+    "parent": 121,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "footnotes": "",
+      "kayan_content_lang": "",
+      "kayan_translation_group": "",
+      "kayan_variant_group": "",
+      "kayan_public_slug": "",
+      "kayan_content_visibility": "",
+      "kayan_locale_seo": [],
+      "kayan_pseo_fingerprint": "",
+      "kayan_pseo_pattern_id": "",
+      "kayan_pseo_entities": [],
+      "kayan_pseo_rule_id": "",
+      "kayan_pseo_blueprint": [],
+      "kayan_pseo_template_id": "",
+      "kayan_pseo_source": "",
+      "kayan_pseo_locked_slug": "",
+      "kayan_pseo_media": [],
+      "kayan_workflow_state": "draft"
+    },
+    "class_list": [
+      "post-131",
+      "page",
+      "type-page",
+      "status-publish",
+      "hentry"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/pages/131",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/pages"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/types/page"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/users/2"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/comments?post=131"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 1,
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/pages/131/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 142,
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/pages/131/revisions/142"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/pages/121"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/media?parent=131"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 130,
+    "date": "2026-10-17T11:57:31",
+    "date_gmt": "2026-10-17T11:57:31",
+    "guid": {
+      "rendered": "https://elsaidey-lawyer.tanceq.com/legal-services/appeals-cassation/"
+    },
+    "modified": "2026-10-17T12:58:31",
+    "modified_gmt": "2026-10-17T12:58:31",
+    "slug": "appeals-cassation",
+    "status": "publish",
+    "type": "page",
+    "link": "https://elsaidey-lawyer.tanceq.com/legal-services/appeals-cassation/",
+    "title": {
+      "rendered": "الاستئناف والنقض ومجلس الدولة"
+    },
+    "content": {
+      "rendered": "\n<p class=\"wp-block-paragraph\">تمثيل أمام الاستئناف العالي ومجلس الدولة في ملفات مدروسة.</p>\n\n\n\n<h2 class=\"wp-block-heading\">نطاق الخدمة</h2>\n\n\n\n<ul class=\"wp-block-list\"><li>استئناف أحكام</li>\n<li>مرافعات النقض — حسب الأهلية</li>\n<li>دعاوى مجلس الدولة</li>\n<li>مراجعة أسباب الطعن</li></ul>\n\n\n\n<h2 class=\"wp-block-heading\">كيف نعمل</h2>\n\n\n\n<ul class=\"wp-block-list\"><li>مراجعة الحكم والملف</li>\n<li>تحديد المهل</li>\n<li>إعداد مذكرات</li>\n<li>متابعة الجلسات</li></ul>\n\n\n\n<h2 class=\"wp-block-heading\">مستندات مفيدة (حسب نوع القضية)</h2>\n\n\n\n<ul class=\"wp-block-list\"><li>الحكم</li>\n<li>ملف الدعوى</li>\n<li>مذكرات سابقة</li></ul>\n\n\n\n<h2 class=\"wp-block-heading\">أسئلة شائعة</h2>\n\n\n\n<h3 class=\"wp-block-heading\">ما الفرق بين الاستئناف والنقض؟</h3>\n\n\n\n<p class=\"wp-block-paragraph\">موضوع للمراجعة — راجع مقال المدونة المخصص (مسودة).</p>\n\n\n\n<h2 class=\"wp-block-heading\">خدمات ذات صلة</h2>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://elsaidey-lawyer.tanceq.com/legal-services/criminal-cases/\">criminal cases</a> · <a href=\"https://elsaidey-lawyer.tanceq.com/legal-services/civil-cases/\">civil cases</a></p>\n\n\n\n<h2 class=\"wp-block-heading\">تواصل مع المكتب</h2>\n\n\n\n<p class=\"wp-block-paragraph\">لطلب استشارة، تواصل عبر <a href=\"https://wa.me/201055833331\" target=\"_blank\" rel=\"noopener\">واتساب</a> أو <a href=\"tel:+201002120325\">اتصل على +201002120325</a>. اذكر نوع المشكلة والمستندات المتوفرة دون إرسال بيانات حساسة غير ضرورية.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><em>تنبيه:</em> المعلومات للتوعية العامة ولا تُعد استشارة قانونية ملزمة حتى يتم فحص مستندات القضية. النتائج تختلف بحسب الوقائع والإجراءات.</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>استئناf ومجلس الدولة والطعن — درجات التقاضي العليا.</p>\n",
+      "protected": false
+    },
+    "author": 2,
+    "featured_media": 0,
+    "parent": 121,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "footnotes": "",
+      "kayan_content_lang": "",
+      "kayan_translation_group": "",
+      "kayan_variant_group": "",
+      "kayan_public_slug": "",
+      "kayan_content_visibility": "",
+      "kayan_locale_seo": [],
+      "kayan_pseo_fingerprint": "",
+      "kayan_pseo_pattern_id": "",
+      "kayan_pseo_entities": [],
+      "kayan_pseo_rule_id": "",
+      "kayan_pseo_blueprint": [],
+      "kayan_pseo_template_id": "",
+      "kayan_pseo_source": "",
+      "kayan_pseo_locked_slug": "",
+      "kayan_pseo_media": [],
+      "kayan_workflow_state": "draft"
+    },
+    "class_list": [
+      "post-130",
+      "page",
+      "type-page",
+      "status-publish",
+      "hentry"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/pages/130",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/pages"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/types/page"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/users/2"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/comments?post=130"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 1,
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/pages/130/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 143,
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/pages/130/revisions/143"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/pages/121"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/media?parent=130"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 129,
+    "date": "2026-10-17T11:57:28",
+    "date_gmt": "2026-10-17T11:57:28",
+    "guid": {
+      "rendered": "https://elsaidey-lawyer.tanceq.com/legal-services/prosecution-investigations/"
+    },
+    "modified": "2026-10-17T12:58:33",
+    "modified_gmt": "2026-10-17T12:58:33",
+    "slug": "prosecution-investigations",
+    "status": "publish",
+    "type": "page",
+    "link": "https://elsaidey-lawyer.tanceq.com/legal-services/prosecution-investigations/",
+    "title": {
+      "rendered": "النيابة والتحقيقات"
+    },
+    "content": {
+      "rendered": "\n<p class=\"wp-block-paragraph\">حضور تحقيقات النيابة وإعداد دفاع أولي وطلبات مناسبة.</p>\n\n\n\n<h2 class=\"wp-block-heading\">نطاق الخدمة</h2>\n\n\n\n<ul class=\"wp-block-list\"><li>حضور التحقيقات</li>\n<li>تقديم مستندات الدفاع</li>\n<li>متابعة قرارات النيابة</li>\n<li>الطعن على التصرفات — وفق المهل</li></ul>\n\n\n\n<h2 class=\"wp-block-heading\">كيف نعمل</h2>\n\n\n\n<ul class=\"wp-block-list\"><li>معرفة موعد التحقيق</li>\n<li>مراجعة المحضر</li>\n<li>حضور مع الموكل</li>\n<li>متابعة الإجراء التالي</li></ul>\n\n\n\n<h2 class=\"wp-block-heading\">مستندات مفيدة (حسب نوع القضية)</h2>\n\n\n\n<ul class=\"wp-block-list\"><li>محضر</li>\n<li>بطاقة</li>\n<li>مستندات</li>\n<li>توكيل</li></ul>\n\n\n\n<h2 class=\"wp-block-heading\">أسئلة شائعة</h2>\n\n\n\n<h3 class=\"wp-block-heading\">ماذا أفعل بعد تحرير محضر؟</h3>\n\n\n\n<p class=\"wp-block-paragraph\">تواصل فوراً مع محامٍ؛ راجع أيضاً مقالات المدونة للتوعية العامة.</p>\n\n\n\n<h2 class=\"wp-block-heading\">خدمات ذات صلة</h2>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://elsaidey-lawyer.tanceq.com/legal-services/criminal-cases/\">criminal cases</a> · <a href=\"https://elsaidey-lawyer.tanceq.com/legal-services/legal-consultations/\">legal consultations</a></p>\n\n\n\n<h2 class=\"wp-block-heading\">تواصل مع المكتب</h2>\n\n\n\n<p class=\"wp-block-paragraph\">لطلب استشارة، تواصل عبر <a href=\"https://wa.me/201055833331\" target=\"_blank\" rel=\"noopener\">واتساب</a> أو <a href=\"tel:+201002120325\">اتصل على +201002120325</a>. اذكر نوع المشكلة والمستندات المتوفرة دون إرسال بيانات حساسة غير ضرورية.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><em>تنبيه:</em> المعلومات للتوعية العامة ولا تُعد استشارة قانونية ملزمة حتى يتم فحص مستندات القضية. النتائج تختلف بحسب الوقائع والإجراءات.</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>محامٍ نيابة: حضور تحقيقات أمام النيabة.</p>\n",
+      "protected": false
+    },
+    "author": 2,
+    "featured_media": 0,
+    "parent": 121,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "footnotes": "",
+      "kayan_content_lang": "",
+      "kayan_translation_group": "",
+      "kayan_variant_group": "",
+      "kayan_public_slug": "",
+      "kayan_content_visibility": "",
+      "kayan_locale_seo": [],
+      "kayan_pseo_fingerprint": "",
+      "kayan_pseo_pattern_id": "",
+      "kayan_pseo_entities": [],
+      "kayan_pseo_rule_id": "",
+      "kayan_pseo_blueprint": [],
+      "kayan_pseo_template_id": "",
+      "kayan_pseo_source": "",
+      "kayan_pseo_locked_slug": "",
+      "kayan_pseo_media": [],
+      "kayan_workflow_state": "draft"
+    },
+    "class_list": [
+      "post-129",
+      "page",
+      "type-page",
+      "status-publish",
+      "hentry"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/pages/129",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/pages"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/types/page"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/users/2"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/comments?post=129"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 1,
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/pages/129/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 144,
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/pages/129/revisions/144"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/pages/121"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/media?parent=129"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 128,
+    "date": "2026-10-17T11:57:25",
+    "date_gmt": "2026-10-17T11:57:25",
+    "guid": {
+      "rendered": "https://elsaidey-lawyer.tanceq.com/legal-services/contracts-disputes/"
+    },
+    "modified": "2026-10-17T12:58:35",
+    "modified_gmt": "2026-10-17T12:58:35",
+    "slug": "contracts-disputes",
+    "status": "publish",
+    "type": "page",
+    "link": "https://elsaidey-lawyer.tanceq.com/legal-services/contracts-disputes/",
+    "title": {
+      "rendered": "العقود والمنازعات التعاقدية"
+    },
+    "content": {
+      "rendered": "\n<p class=\"wp-block-paragraph\">صياغة ومراجعة عقود ببنود واضحة تقلل النزاع قبل وقوعه.</p>\n\n\n\n<h2 class=\"wp-block-heading\">نطاق الخدمة</h2>\n\n\n\n<ul class=\"wp-block-list\"><li>صياغة عقود</li>\n<li>مراجعة بنود</li>\n<li>مطالبات تنفيذ عقد</li>\n<li>فسخ وإبطال — حسب السبب</li></ul>\n\n\n\n<h2 class=\"wp-block-heading\">كيف نعمل</h2>\n\n\n\n<ul class=\"wp-block-list\"><li>فهم الالتزامات</li>\n<li>صياغة أو تعديل البنود</li>\n<li>تفاوض</li>\n<li>تقاضي عند اللزوم</li></ul>\n\n\n\n<h2 class=\"wp-block-heading\">مستندات مفيدة (حسب نوع القضية)</h2>\n\n\n\n<ul class=\"wp-block-list\"><li>مسودات العقد</li>\n<li>فواتير</li>\n<li>مراسلات</li>\n<li>إثبات التسليم</li></ul>\n\n\n\n<h2 class=\"wp-block-heading\">أسئلة شائعة</h2>\n\n\n\n<h3 class=\"wp-block-heading\">هل مراجعة العقد تكفي؟</h3>\n\n\n\n<p class=\"wp-block-paragraph\">غالباً للكشف عن المخاطر؛ التعديل يعتمد على طرفي العقد.</p>\n\n\n\n<h2 class=\"wp-block-heading\">خدمات ذات صلة</h2>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://elsaidey-lawyer.tanceq.com/legal-services/commercial-law/\">commercial law</a> · <a href=\"https://elsaidey-lawyer.tanceq.com/legal-services/civil-cases/\">civil cases</a></p>\n\n\n\n<h2 class=\"wp-block-heading\">تواصل مع المكتب</h2>\n\n\n\n<p class=\"wp-block-paragraph\">لطلب استشارة، تواصل عبر <a href=\"https://wa.me/201055833331\" target=\"_blank\" rel=\"noopener\">واتساب</a> أو <a href=\"tel:+201002120325\">اتصل على +201002120325</a>. اذكر نوع المشكلة والمستندات المتوفرة دون إرسال بيانات حساسة غير ضرورية.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><em>تنبيه:</em> المعلومات للتوعية العامة ولا تُعد استشارة قانونية ملزمة حتى يتم فحص مستندات القضية. النتائج تختلف بحسب الوقائع والإجراءات.</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>صياغة عقود ومراجعة بنود والمنازعات التعاقدية.</p>\n",
+      "protected": false
+    },
+    "author": 2,
+    "featured_media": 0,
+    "parent": 121,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "footnotes": "",
+      "kayan_content_lang": "",
+      "kayan_translation_group": "",
+      "kayan_variant_group": "",
+      "kayan_public_slug": "",
+      "kayan_content_visibility": "",
+      "kayan_locale_seo": [],
+      "kayan_pseo_fingerprint": "",
+      "kayan_pseo_pattern_id": "",
+      "kayan_pseo_entities": [],
+      "kayan_pseo_rule_id": "",
+      "kayan_pseo_blueprint": [],
+      "kayan_pseo_template_id": "",
+      "kayan_pseo_source": "",
+      "kayan_pseo_locked_slug": "",
+      "kayan_pseo_media": [],
+      "kayan_workflow_state": "draft"
+    },
+    "class_list": [
+      "post-128",
+      "page",
+      "type-page",
+      "status-publish",
+      "hentry"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/pages/128",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/pages"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/types/page"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/users/2"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/comments?post=128"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 1,
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/pages/128/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 145,
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/pages/128/revisions/145"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/pages/121"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/media?parent=128"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 127,
+    "date": "2026-10-17T11:57:23",
+    "date_gmt": "2026-10-17T11:57:23",
+    "guid": {
+      "rendered": "https://elsaidey-lawyer.tanceq.com/legal-services/commercial-law/"
+    },
+    "modified": "2026-10-17T12:58:37",
+    "modified_gmt": "2026-10-17T12:58:37",
+    "slug": "commercial-law",
+    "status": "publish",
+    "type": "page",
+    "link": "https://elsaidey-lawyer.tanceq.com/legal-services/commercial-law/",
+    "title": {
+      "rendered": "القضايا التجارية وتأسيس الشركات"
+    },
+    "content": {
+      "rendered": "\n<p class=\"wp-block-paragraph\">تأسيس شركات، حوكمة، ونزاعات تجارية بين الشركاء أو مع الغير.</p>\n\n\n\n<h2 class=\"wp-block-heading\">نطاق الخدمة</h2>\n\n\n\n<ul class=\"wp-block-list\"><li>تأسيس الشركات وصياغة عقود الشركاء</li>\n<li>نزاعات تجارية</li>\n<li>مطالبات مستحقات</li>\n<li>مراجعة عقود B2B</li></ul>\n\n\n\n<h2 class=\"wp-block-heading\">كيف نعمل</h2>\n\n\n\n<ul class=\"wp-block-list\"><li>تحديد الشكل القانوني</li>\n<li>إعداد المستندات</li>\n<li>التسجيل والمتابعة</li>\n<li>حل النزاع بالتراضي أو التقاضي</li></ul>\n\n\n\n<h2 class=\"wp-block-heading\">مستندات مفيدة (حسب نوع القضية)</h2>\n\n\n\n<ul class=\"wp-block-list\"><li>هويات الشركاء</li>\n<li>عقد تأسيس</li>\n<li>سجل تجاري</li>\n<li>مراسلات النزاع</li></ul>\n\n\n\n<h2 class=\"wp-block-heading\">أسئلة شائعة</h2>\n\n\n\n<h3 class=\"wp-block-heading\">هل تصيغون عقود شركاء؟</h3>\n\n\n\n<p class=\"wp-block-paragraph\">نعم، مع مراجعة بنود الحوكمة والخروج.</p>\n\n\n\n<h2 class=\"wp-block-heading\">خدمات ذات صلة</h2>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://elsaidey-lawyer.tanceq.com/legal-services/contracts-disputes/\">contracts disputes</a> · <a href=\"https://elsaidey-lawyer.tanceq.com/legal-services/legal-consultations/\">legal consultations</a></p>\n\n\n\n<h2 class=\"wp-block-heading\">تواصل مع المكتب</h2>\n\n\n\n<p class=\"wp-block-paragraph\">لطلب استشارة، تواصل عبر <a href=\"https://wa.me/201055833331\" target=\"_blank\" rel=\"noopener\">واتساب</a> أو <a href=\"tel:+201002120325\">اتصل على +201002120325</a>. اذكر نوع المشكلة والمستندات المتوفرة دون إرسال بيانات حساسة غير ضرورية.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><em>تنبيه:</em> المعلومات للتوعية العامة ولا تُعد استشارة قانونية ملزمة حتى يتم فحص مستندات القضية. النتائج تختلف بحسب الوقائع والإجراءات.</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>محامٍ تجاري: شركات، نزاعات تجارية وتأسيس.</p>\n",
+      "protected": false
+    },
+    "author": 2,
+    "featured_media": 0,
+    "parent": 121,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "footnotes": "",
+      "kayan_content_lang": "",
+      "kayan_translation_group": "",
+      "kayan_variant_group": "",
+      "kayan_public_slug": "",
+      "kayan_content_visibility": "",
+      "kayan_locale_seo": [],
+      "kayan_pseo_fingerprint": "",
+      "kayan_pseo_pattern_id": "",
+      "kayan_pseo_entities": [],
+      "kayan_pseo_rule_id": "",
+      "kayan_pseo_blueprint": [],
+      "kayan_pseo_template_id": "",
+      "kayan_pseo_source": "",
+      "kayan_pseo_locked_slug": "",
+      "kayan_pseo_media": [],
+      "kayan_workflow_state": "draft"
+    },
+    "class_list": [
+      "post-127",
+      "page",
+      "type-page",
+      "status-publish",
+      "hentry"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/pages/127",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/pages"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/types/page"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/users/2"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/comments?post=127"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 1,
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/pages/127/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 146,
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/pages/127/revisions/146"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/pages/121"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/media?parent=127"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 126,
+    "date": "2026-10-17T11:57:20",
+    "date_gmt": "2026-10-17T11:57:20",
+    "guid": {
+      "rendered": "https://elsaidey-lawyer.tanceq.com/legal-services/civil-cases/"
+    },
+    "modified": "2026-10-17T12:58:39",
+    "modified_gmt": "2026-10-17T12:58:39",
+    "slug": "civil-cases",
+    "status": "publish",
+    "type": "page",
+    "link": "https://elsaidey-lawyer.tanceq.com/legal-services/civil-cases/",
+    "title": {
+      "rendered": "القضايا المدنية والتعويضات"
+    },
+    "content": {
+      "rendered": "\n<p class=\"wp-block-paragraph\">منازعات مدنية، تعويضات، إيجارات، وملكية — مع بناء استراتيجية للملف.</p>\n\n\n\n<h2 class=\"wp-block-heading\">نطاق الخدمة</h2>\n\n\n\n<ul class=\"wp-block-list\"><li>دعاوى التعويض</li>\n<li>منازعات الإيجار</li>\n<li>دعاوى الملكية والحيازة</li>\n<li>تنفيذ أحكام مدنية — حسب الإجراء</li></ul>\n\n\n\n<h2 class=\"wp-block-heading\">كيف نعمل</h2>\n\n\n\n<ul class=\"wp-block-list\"><li>تحليل العقد أو الضرر</li>\n<li>تقدير المسار والمدة</li>\n<li>رفع الدعوى أو الدفاع</li>\n<li>متابعة التنفيذ</li></ul>\n\n\n\n<h2 class=\"wp-block-heading\">مستندات مفيدة (حسب نوع القضية)</h2>\n\n\n\n<ul class=\"wp-block-list\"><li>عقود</li>\n<li>إنذارات</li>\n<li>محاضر</li>\n<li>فواتير أو تقارير للتعويض</li></ul>\n\n\n\n<h2 class=\"wp-block-heading\">أسئلة شائعة</h2>\n\n\n\n<h3 class=\"wp-block-heading\">ما المدة المتوقعة؟</h3>\n\n\n\n<p class=\"wp-block-paragraph\">تختلف حسب المحكمة والاختصاص ومدى التعقيد.</p>\n\n\n\n<h2 class=\"wp-block-heading\">خدمات ذات صلة</h2>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://elsaidey-lawyer.tanceq.com/legal-services/contracts-disputes/\">contracts disputes</a> · <a href=\"https://elsaidey-lawyer.tanceq.com/legal-services/commercial-law/\">commercial law</a></p>\n\n\n\n<h2 class=\"wp-block-heading\">تواصل مع المكتب</h2>\n\n\n\n<p class=\"wp-block-paragraph\">لطلب استشارة، تواصل عبر <a href=\"https://wa.me/201055833331\" target=\"_blank\" rel=\"noopener\">واتساب</a> أو <a href=\"tel:+201002120325\">اتصل على +201002120325</a>. اذكر نوع المشكلة والمستندات المتوفرة دون إرسال بيانات حساسة غير ضرورية.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><em>تنبيه:</em> المعلومات للتوعية العامة ولا تُعد استشارة قانونية ملزمة حتى يتم فحص مستندات القضية. النتائج تختلف بحسب الوقائع والإجراءات.</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>محامٍ مدني: تعويضات، إيجارات ومنازعات مدنية.</p>\n",
+      "protected": false
+    },
+    "author": 2,
+    "featured_media": 0,
+    "parent": 121,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "footnotes": "",
+      "kayan_content_lang": "",
+      "kayan_translation_group": "",
+      "kayan_variant_group": "",
+      "kayan_public_slug": "",
+      "kayan_content_visibility": "",
+      "kayan_locale_seo": [],
+      "kayan_pseo_fingerprint": "",
+      "kayan_pseo_pattern_id": "",
+      "kayan_pseo_entities": [],
+      "kayan_pseo_rule_id": "",
+      "kayan_pseo_blueprint": [],
+      "kayan_pseo_template_id": "",
+      "kayan_pseo_source": "",
+      "kayan_pseo_locked_slug": "",
+      "kayan_pseo_media": [],
+      "kayan_workflow_state": "draft"
+    },
+    "class_list": [
+      "post-126",
+      "page",
+      "type-page",
+      "status-publish",
+      "hentry"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/pages/126",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/pages"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/types/page"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/users/2"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/comments?post=126"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 1,
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/pages/126/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 147,
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/pages/126/revisions/147"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/pages/121"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/media?parent=126"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 125,
+    "date": "2026-10-17T11:57:17",
+    "date_gmt": "2026-10-17T11:57:17",
+    "guid": {
+      "rendered": "https://elsaidey-lawyer.tanceq.com/legal-services/family-law/"
+    },
+    "modified": "2026-10-17T12:58:40",
+    "modified_gmt": "2026-10-17T12:58:40",
+    "slug": "family-law",
+    "status": "publish",
+    "type": "page",
+    "link": "https://elsaidey-lawyer.tanceq.com/legal-services/family-law/",
+    "title": {
+      "rendered": "قضايا الأسرة والأحوال الشخصية"
+    },
+    "content": {
+      "rendered": "\n<p class=\"wp-block-paragraph\">طلاق، نفقة، حضانة، رؤية، إثبات نسب، وإجراءات أحوال شخصية وفق القانون المصري.</p>\n\n\n\n<h2 class=\"wp-block-heading\">نطاق الخدمة</h2>\n\n\n\n<ul class=\"wp-block-list\"><li>دعاوى الطلاق والخلع</li>\n<li>النفقة والحضانة والرؤية</li>\n<li>إثبات أو نفي نسب</li>\n<li>إجراءات تركة — بالتنسيق حسب الملف</li></ul>\n\n\n\n<h2 class=\"wp-block-heading\">كيف نعمل</h2>\n\n\n\n<ul class=\"wp-block-list\"><li>استشارة أولية</li>\n<li>تحديد الدعوى والاختصاص</li>\n<li>إعداد صحيفة الدعوى</li>\n<li>متابعة الجلسات والتنفيذ</li></ul>\n\n\n\n<h2 class=\"wp-block-heading\">مستندات مفيدة (حسب نوع القضية)</h2>\n\n\n\n<ul class=\"wp-block-list\"><li>عقد الزواج</li>\n<li>شهادات الميلاد</li>\n<li>محاضر أو أحكام سابقة</li>\n<li>إثبات دخل عند طلب النفقة</li></ul>\n\n\n\n<h2 class=\"wp-block-heading\">أسئلة شائعة</h2>\n\n\n\n<h3 class=\"wp-block-heading\">هل الاستشارة الأولى عن بُعد؟</h3>\n\n\n\n<p class=\"wp-block-paragraph\">نعم، مع إمكانية حضور في المنصورة/طلخا عند الحاجة.</p>\n\n\n\n<h2 class=\"wp-block-heading\">خدمات ذات صلة</h2>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://elsaidey-lawyer.tanceq.com/legal-services/legal-consultations/\">legal consultations</a> · <a href=\"https://elsaidey-lawyer.tanceq.com/legal-services/lawyer-talkha-mansoura/\">lawyer talkha mansoura</a></p>\n\n\n\n<h2 class=\"wp-block-heading\">تواصل مع المكتب</h2>\n\n\n\n<p class=\"wp-block-paragraph\">لطلب استشارة، تواصل عبر <a href=\"https://wa.me/201055833331\" target=\"_blank\" rel=\"noopener\">واتساب</a> أو <a href=\"tel:+201002120325\">اتصل على +201002120325</a>. اذكر نوع المشكلة والمستندات المتوفرة دون إرسال بيانات حساسة غير ضرورية.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><em>تنبيه:</em> المعلومات للتوعية العامة ولا تُعد استشارة قانونية ملزمة حتى يتم فحص مستندات القضية. النتائج تختلف بحسب الوقائع والإجراءات.</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>محامٍ أسرة: طلاق، نفقة، حضانة وأحوال شخصية.</p>\n",
+      "protected": false
+    },
+    "author": 2,
+    "featured_media": 0,
+    "parent": 121,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "footnotes": "",
+      "kayan_content_lang": "",
+      "kayan_translation_group": "",
+      "kayan_variant_group": "",
+      "kayan_public_slug": "",
+      "kayan_content_visibility": "",
+      "kayan_locale_seo": [],
+      "kayan_pseo_fingerprint": "",
+      "kayan_pseo_pattern_id": "",
+      "kayan_pseo_entities": [],
+      "kayan_pseo_rule_id": "",
+      "kayan_pseo_blueprint": [],
+      "kayan_pseo_template_id": "",
+      "kayan_pseo_source": "",
+      "kayan_pseo_locked_slug": "",
+      "kayan_pseo_media": [],
+      "kayan_workflow_state": "draft"
+    },
+    "class_list": [
+      "post-125",
+      "page",
+      "type-page",
+      "status-publish",
+      "hentry"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/pages/125",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/pages"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/types/page"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/users/2"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/comments?post=125"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 1,
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/pages/125/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 148,
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/pages/125/revisions/148"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/pages/121"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/media?parent=125"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 124,
+    "date": "2026-10-17T11:57:14",
+    "date_gmt": "2026-10-17T11:57:14",
+    "guid": {
+      "rendered": "https://elsaidey-lawyer.tanceq.com/legal-services/criminal-cases/"
+    },
+    "modified": "2026-10-17T12:58:42",
+    "modified_gmt": "2026-10-17T12:58:42",
+    "slug": "criminal-cases",
+    "status": "publish",
+    "type": "page",
+    "link": "https://elsaidey-lawyer.tanceq.com/legal-services/criminal-cases/",
+    "title": {
+      "rendered": "القضايا الجنائية والدفاع الجنائي"
+    },
+    "content": {
+      "rendered": "\n<p class=\"wp-block-paragraph\">دفاع جنائي وتمثيل أمام محاكم الجنح والجنايات والمحاكم العسكرية وفق إجراءات منضبطة.</p>\n\n\n\n<h2 class=\"wp-block-heading\">نطاق الخدمة</h2>\n\n\n\n<ul class=\"wp-block-list\"><li>الحضور أمام النيابة والتحقيقات في الملفات الجنائية.</li>\n<li>المرافعة في الجنح والجنايات.</li>\n<li>الطعن والاستئناف في الأحكام الجنائية — وفق المهل والأسس القانونية.</li>\n<li>متابعة ملفات التحقيق حتى الإحالة أو غيرها من الإجراءات.</li></ul>\n\n\n\n<h2 class=\"wp-block-heading\">كيف نعمل</h2>\n\n\n\n<ul class=\"wp-block-list\"><li>تقييم أولي للواقعة والمستندات.</li>\n<li>تحديد الإجراء العاجل (حضور تحقيق، طلبات procedural مناسبة).</li>\n<li>إعداد المذكرات والمرافعة في الجلسات.</li>\n<li>متابعة الطعون والتنفيذ حسب الحكم.</li></ul>\n\n\n\n<h2 class=\"wp-block-heading\">مستندات مفيدة (حسب نوع القضية)</h2>\n\n\n\n<ul class=\"wp-block-list\"><li>محضر أو قرار تحقيق</li>\n<li>بطاقة شخصية</li>\n<li>مستندات إثبات أو دفاع</li>\n<li>أحكام سابقة إن وُجدت</li></ul>\n\n\n\n<h2 class=\"wp-block-heading\">أسئلة شائعة</h2>\n\n\n\n<h3 class=\"wp-block-heading\">هل تتعاملون مع قضايا المخدرات والنصب؟</h3>\n\n\n\n<p class=\"wp-block-paragraph\">نعم ضمن الدفاع الجنائي العام بعد مراجعة الوقائع.</p>\n\n\n\n<h3 class=\"wp-block-heading\">هل يمكن الحضور عن بُعد؟</h3>\n\n\n\n<p class=\"wp-block-paragraph\">بعض الإجراءات تتطلب حضوراً شخصياً؛ يُحدد ذلك بعد معرفة نوع الجلسة.</p>\n\n\n\n<h2 class=\"wp-block-heading\">خدمات ذات صلة</h2>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://elsaidey-lawyer.tanceq.com/legal-services/prosecution-investigations/\">prosecution investigations</a> · <a href=\"https://elsaidey-lawyer.tanceq.com/legal-services/appeals-cassation/\">appeals cassation</a></p>\n\n\n\n<h2 class=\"wp-block-heading\">تواصل مع المكتب</h2>\n\n\n\n<p class=\"wp-block-paragraph\">لطلب استشارة، تواصل عبر <a href=\"https://wa.me/201055833331\" target=\"_blank\" rel=\"noopener\">واتساب</a> أو <a href=\"tel:+201002120325\">اتصل على +201002120325</a>. اذكر نوع المشكلة والمستندات المتوفرة دون إرسال بيانات حساسة غير ضرورية.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><em>تنبيه:</em> المعلومات للتوعية العامة ولا تُعد استشارة قانونية ملزمة حتى يتم فحص مستندات القضية. النتائج تختلف بحسب الوقائع والإجراءات.</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>محامٍ جنائي: دفاع وتمثيل في الJnah وجnaيات — مؤسسة الصعيدي.</p>\n",
+      "protected": false
+    },
+    "author": 2,
+    "featured_media": 0,
+    "parent": 121,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "footnotes": "",
+      "kayan_content_lang": "",
+      "kayan_translation_group": "",
+      "kayan_variant_group": "",
+      "kayan_public_slug": "",
+      "kayan_content_visibility": "",
+      "kayan_locale_seo": [],
+      "kayan_pseo_fingerprint": "",
+      "kayan_pseo_pattern_id": "",
+      "kayan_pseo_entities": [],
+      "kayan_pseo_rule_id": "",
+      "kayan_pseo_blueprint": [],
+      "kayan_pseo_template_id": "",
+      "kayan_pseo_source": "",
+      "kayan_pseo_locked_slug": "",
+      "kayan_pseo_media": [],
+      "kayan_workflow_state": "draft"
+    },
+    "class_list": [
+      "post-124",
+      "page",
+      "type-page",
+      "status-publish",
+      "hentry"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/pages/124",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/pages"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/types/page"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/users/2"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/comments?post=124"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 1,
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/pages/124/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 149,
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/pages/124/revisions/149"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/pages/121"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/media?parent=124"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 123,
+    "date": "2026-10-17T11:57:12",
+    "date_gmt": "2026-10-17T11:57:12",
+    "guid": {
+      "rendered": "https://elsaidey-lawyer.tanceq.com/about/"
+    },
+    "modified": "2026-10-17T12:58:44",
+    "modified_gmt": "2026-10-17T12:58:44",
+    "slug": "about",
+    "status": "publish",
+    "type": "page",
+    "link": "https://elsaidey-lawyer.tanceq.com/about/",
+    "title": {
+      "rendered": "من نحن"
+    },
+    "content": {
+      "rendered": "\n<h1 class=\"wp-block-heading\">مؤسسة الصعيدي للمحاماة والاستشارات القانونية</h1>\n\n\n\n<p class=\"wp-block-paragraph\">يقود المكتب المستشار عيد الصعيدي، محامٍ بالاستئناف العالي ومجلس الدولة ومحاكم الجنايات والمحاكم العسكرية.</p>\n\n\n\n<h2 class=\"wp-block-heading\">نطاق العمل</h2>\n\n\n\n<ul class=\"wp-block-list\"><li>المرافعة أمام درجات التقاضي المختلفة.</li>\n<li>الاستئناف العالي ومجلس الدولة.</li>\n<li>الجنايات والمحاكم العسكرية.</li>\n<li>صياغة العقود وتأسيس الشركات.</li>\n<li>الاستشارات القانونية للأفراد والشركات.</li></ul>\n\n\n\n<h2 class=\"wp-block-heading\">الموقع الجغرافي</h2>\n\n\n\n<p class=\"wp-block-paragraph\">مقر المكتب: شقة 2، الدور الرابع، عمارة السمنودي، شارع فرنش بيكر، طلخا، الدقهلية. نخدم طلخا والمنصورة والدقهلية مع متابعة ملفات عن بُعد في أنحاء مصر حسب طبيعة القضية.</p>\n\n\n\n<h2 class=\"wp-block-heading\">تواصل مع المكتب</h2>\n\n\n\n<p class=\"wp-block-paragraph\">لطلب استشارة، تواصل عبر <a href=\"https://wa.me/201055833331\" target=\"_blank\" rel=\"noopener\">واتساب</a> أو <a href=\"tel:+201002120325\">اتصل على +201002120325</a>. اذكر نوع المشكلة والمستندات المتوفرة دون إرسال بيانات حساسة غير ضرورية.</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>من نحن: مؤسسة الصعيدي للمحاماة والاستشارات القanونية — نطاق الخدمات والحضور في الدقهلية.</p>\n",
+      "protected": false
+    },
+    "author": 2,
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "footnotes": "",
+      "kayan_content_lang": "",
+      "kayan_translation_group": "",
+      "kayan_variant_group": "",
+      "kayan_public_slug": "",
+      "kayan_content_visibility": "",
+      "kayan_locale_seo": [],
+      "kayan_pseo_fingerprint": "",
+      "kayan_pseo_pattern_id": "",
+      "kayan_pseo_entities": [],
+      "kayan_pseo_rule_id": "",
+      "kayan_pseo_blueprint": [],
+      "kayan_pseo_template_id": "",
+      "kayan_pseo_source": "",
+      "kayan_pseo_locked_slug": "",
+      "kayan_pseo_media": [],
+      "kayan_workflow_state": "draft"
+    },
+    "class_list": [
+      "post-123",
+      "page",
+      "type-page",
+      "status-publish",
+      "hentry"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/pages/123",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/pages"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/types/page"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/users/2"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/comments?post=123"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 1,
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/pages/123/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 150,
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/pages/123/revisions/150"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/media?parent=123"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 122,
+    "date": "2026-10-17T11:57:09",
+    "date_gmt": "2026-10-17T11:57:09",
+    "guid": {
+      "rendered": "https://elsaidey-lawyer.tanceq.com/contact-us/"
+    },
+    "modified": "2026-10-17T12:58:45",
+    "modified_gmt": "2026-10-17T12:58:45",
+    "slug": "contact-us",
+    "status": "publish",
+    "type": "page",
+    "link": "https://elsaidey-lawyer.tanceq.com/contact-us/",
+    "title": {
+      "rendered": "تواصل معنا"
+    },
+    "content": {
+      "rendered": "\n<h1 class=\"wp-block-heading\">طلب استشارة قانونية</h1>\n\n\n\n<p class=\"wp-block-paragraph\">مؤسسة الصعيدي للمحاماة والاستشارات القانونية — حضور محلي في طلخا والمنصورة، ومتابعة عن بُعد في مختلف محافظات مصر.</p>\n\n\n\n<h2 class=\"wp-block-heading\">بيانات التواصل</h2>\n\n\n\n<ul class=\"wp-block-list\"><li>هاتف: <a href=\"tel:+201002120325\">+201002120325</a></li>\n<li>واتساب: <a href=\"https://wa.me/201055833331\" target=\"_blank\" rel=\"noopener\">اضغط للمراسلة</a></li>\n<li>العنوان: شقة 2، الدور الرابع، عمارة السمنودي، شارع فرنش بيكر، طلخا، الدقهلية</li></ul>\n\n\n\n<h2 class=\"wp-block-heading\">ماذا نحتاج في أول تواصل؟</h2>\n\n\n\n<ul class=\"wp-block-list\"><li>نوع المشكلة (جنائي، أسرة، مدني، تجاري، إلخ).</li>\n<li>موعد تقريبي للواقعة أو الإجراء إن وُجد.</li>\n<li>هل توجد مستندات (محضر، عقد، حكم، إنذار)؟</li></ul>\n\n\n\n<p class=\"wp-block-paragraph\">نحافظ على سرية البيانات. تجنّب إرسال مستندات حساسة عبر قنوات غير آمنة حتى يتم الاتفاق على آلية التسليم المناسبة.</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>تواصل مع مؤسسة الصعيدي: طلب استشارة قanونية عبر الهاتف أو واتساب — طلخا والمنصورة.</p>\n",
+      "protected": false
+    },
+    "author": 2,
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "footnotes": "",
+      "kayan_content_lang": "",
+      "kayan_translation_group": "",
+      "kayan_variant_group": "",
+      "kayan_public_slug": "",
+      "kayan_content_visibility": "",
+      "kayan_locale_seo": [],
+      "kayan_pseo_fingerprint": "",
+      "kayan_pseo_pattern_id": "",
+      "kayan_pseo_entities": [],
+      "kayan_pseo_rule_id": "",
+      "kayan_pseo_blueprint": [],
+      "kayan_pseo_template_id": "",
+      "kayan_pseo_source": "",
+      "kayan_pseo_locked_slug": "",
+      "kayan_pseo_media": [],
+      "kayan_workflow_state": "draft"
+    },
+    "class_list": [
+      "post-122",
+      "page",
+      "type-page",
+      "status-publish",
+      "hentry"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/pages/122",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/pages"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/types/page"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/users/2"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/comments?post=122"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 1,
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/pages/122/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 151,
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/pages/122/revisions/151"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/media?parent=122"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 121,
+    "date": "2026-10-17T11:57:05",
+    "date_gmt": "2026-10-17T11:57:05",
+    "guid": {
+      "rendered": "https://elsaidey-lawyer.tanceq.com/legal-services/"
+    },
+    "modified": "2026-10-17T12:58:47",
+    "modified_gmt": "2026-10-17T12:58:47",
+    "slug": "legal-services",
+    "status": "publish",
+    "type": "page",
+    "link": "https://elsaidey-lawyer.tanceq.com/legal-services/",
+    "title": {
+      "rendered": "الخدمات القانونية"
+    },
+    "content": {
+      "rendered": "\n<h1 class=\"wp-block-heading\">خدمات المحاماة والاستشارات</h1>\n\n\n\n<p class=\"wp-block-paragraph\">اختر التخصص الأقرب لاحتياجك. كل صفحة توضّح نطاق الخدمة وخطوات العمل دون وعود بنتائج محددة.</p>\n\n\n\n<ul class=\"wp-block-list\"><li><a href=\"https://elsaidey-lawyer.tanceq.com/legal-services/criminal-cases/\">القضايا الجنائية والدفاع الجنائي</a></li><li><a href=\"https://elsaidey-lawyer.tanceq.com/legal-services/family-law/\">قضايا الأسرة والأحوال الشخصية</a></li><li><a href=\"https://elsaidey-lawyer.tanceq.com/legal-services/civil-cases/\">القضايا المدنية والتعويضات</a></li><li><a href=\"https://elsaidey-lawyer.tanceq.com/legal-services/commercial-law/\">القضايا التجارية وتأسيس الشركات</a></li><li><a href=\"https://elsaidey-lawyer.tanceq.com/legal-services/contracts-disputes/\">العقود والمنازعات التعاقدية</a></li><li><a href=\"https://elsaidey-lawyer.tanceq.com/legal-services/prosecution-investigations/\">النيابة والتحقيقات</a></li><li><a href=\"https://elsaidey-lawyer.tanceq.com/legal-services/appeals-cassation/\">الاستئناف والنقض ومجلس الدولة</a></li><li><a href=\"https://elsaidey-lawyer.tanceq.com/legal-services/legal-consultations/\">الاستشارات القانونية</a></li><li><a href=\"https://elsaidey-lawyer.tanceq.com/legal-services/lawyer-talkha-mansoura/\">محامي في طلخا والمنصورة</a></li></ul>\n\n\n\n<h2 class=\"wp-block-heading\">تواصل مع المكتب</h2>\n\n\n\n<p class=\"wp-block-paragraph\">لطلب استشارة، تواصل عبر <a href=\"https://wa.me/201055833331\" target=\"_blank\" rel=\"noopener\">واتساب</a> أو <a href=\"tel:+201002120325\">اتصل على +201002120325</a>. اذكر نوع المشكلة والمستندات المتوفرة دون إرسال بيانات حساسة غير ضرورية.</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>خدمات المحاماة والاستشارات القanونية في مصر: جنائي، أسرة، مدني، تجاري، عقود، نيابة واستئناf.</p>\n",
+      "protected": false
+    },
+    "author": 2,
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "footnotes": "",
+      "kayan_content_lang": "",
+      "kayan_translation_group": "",
+      "kayan_variant_group": "",
+      "kayan_public_slug": "",
+      "kayan_content_visibility": "",
+      "kayan_locale_seo": [],
+      "kayan_pseo_fingerprint": "",
+      "kayan_pseo_pattern_id": "",
+      "kayan_pseo_entities": [],
+      "kayan_pseo_rule_id": "",
+      "kayan_pseo_blueprint": [],
+      "kayan_pseo_template_id": "",
+      "kayan_pseo_source": "",
+      "kayan_pseo_locked_slug": "",
+      "kayan_pseo_media": [],
+      "kayan_workflow_state": "draft"
+    },
+    "class_list": [
+      "post-121",
+      "page",
+      "type-page",
+      "status-publish",
+      "hentry"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/pages/121",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/pages"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/types/page"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/users/2"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/comments?post=121"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 1,
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/pages/121/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 152,
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/pages/121/revisions/152"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/media?parent=121"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "date": "2026-03-12T01:14:59",
+    "date_gmt": "2026-03-12T01:14:59",
+    "guid": {
+      "rendered": "https://photo.tanceq.com/?page_id=3"
+    },
+    "modified": "2026-10-17T12:58:49",
+    "modified_gmt": "2026-10-17T12:58:49",
+    "slug": "privacy-policy",
+    "status": "publish",
+    "type": "page",
+    "link": "https://elsaidey-lawyer.tanceq.com/privacy-policy/",
+    "title": {
+      "rendered": "سياسة الخصوصية"
+    },
+    "content": {
+      "rendered": "\n<h1 class=\"wp-block-heading\">سياسة الخصوصية</h1>\n\n\n\n<p class=\"wp-block-paragraph\">موقع elsaidey-lawyer.tanceq.com تديره مؤسسة الصعيدي للمحاماة والاستشارات القانونية.</p>\n\n\n\n<h2 class=\"wp-block-heading\">البيانات التي نجمعها</h2>\n\n\n\n<p class=\"wp-block-paragraph\">نستخدم بيانات الاتصال التي تقدمها طوعاً للرد على طلب الاستشارة.</p>\n\n\n\n<h2 class=\"wp-block-heading\">الاتصال</h2>\n\n\n\n<p class=\"wp-block-paragraph\">هاتف: +201002120325 — العنوان: شقة 2، الدور الرابع، عمارة السمنودي، شارع فرنش بيكر، طلخا، الدقهلية</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>سياسة الخصوصية لموقع مؤسسة الصعيدي.</p>\n",
+      "protected": false
+    },
+    "author": 2,
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "footnotes": "",
+      "kayan_content_lang": "",
+      "kayan_translation_group": "",
+      "kayan_variant_group": "",
+      "kayan_public_slug": "",
+      "kayan_content_visibility": "",
+      "kayan_locale_seo": [],
+      "kayan_pseo_fingerprint": "",
+      "kayan_pseo_pattern_id": "",
+      "kayan_pseo_entities": [],
+      "kayan_pseo_rule_id": "",
+      "kayan_pseo_blueprint": [],
+      "kayan_pseo_template_id": "",
+      "kayan_pseo_source": "",
+      "kayan_pseo_locked_slug": "",
+      "kayan_pseo_media": [],
+      "kayan_workflow_state": "draft"
+    },
+    "class_list": [
+      "post-3",
+      "page",
+      "type-page",
+      "status-publish",
+      "hentry"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/pages/3",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/pages"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/types/page"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/users/2"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/comments?post=3"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 2,
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/pages/3/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 153,
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/pages/3/revisions/153"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/media?parent=3"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,1289 @@
+[
+  {
+    "id": 167,
+    "date": "2026-10-17T13:00:28",
+    "date_gmt": "2026-10-17T13:00:28",
+    "guid": {
+      "rendered": "https://elsaidey-lawyer.tanceq.com/services/lawyer-talkha-mansoura/",
+      "raw": "https://elsaidey-lawyer.tanceq.com/services/lawyer-talkha-mansoura/"
+    },
+    "modified": "2026-10-17T13:00:28",
+    "modified_gmt": "2026-10-17T13:00:28",
+    "password": "",
+    "slug": "lawyer-talkha-mansoura",
+    "status": "publish",
+    "type": "services",
+    "link": "https://elsaidey-lawyer.tanceq.com/services/lawyer-talkha-mansoura/",
+    "title": {
+      "raw": "محامٍ في طلخا والمنصورة",
+      "rendered": "محامٍ في طلخا والمنصورة"
+    },
+    "content": {
+      "raw": "<!-- wp:paragraph --><p>صفحة التفاصيل: <a href=\"https://elsaidey-lawyer.tanceq.com/legal-services/lawyer-talkha-mansoura/\">https://elsaidey-lawyer.tanceq.com/legal-services/lawyer-talkha-mansoura/</a></p><!-- /wp:paragraph -->",
+      "rendered": "<p class=\"wp-block-paragraph\">صفحة التفاصيل: <a href=\"https://elsaidey-lawyer.tanceq.com/legal-services/lawyer-talkha-mansoura/\">https://elsaidey-lawyer.tanceq.com/legal-services/lawyer-talkha-mansoura/</a></p>",
+      "protected": false,
+      "block_version": 1
+    },
+    "excerpt": {
+      "raw": "",
+      "rendered": "<p>صفحة التفاصيل: https://elsaidey-lawyer.tanceq.com/legal-services/lawyer-talkha-mansoura/</p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "menu_order": 0,
+    "template": "",
+    "meta": {
+      "kayan_content_lang": "",
+      "kayan_translation_group": "",
+      "kayan_variant_group": "",
+      "kayan_public_slug": "",
+      "kayan_content_visibility": "",
+      "kayan_locale_seo": [],
+      "kayan_pseo_fingerprint": "",
+      "kayan_pseo_pattern_id": "",
+      "kayan_pseo_entities": [],
+      "kayan_pseo_rule_id": "",
+      "kayan_pseo_blueprint": [],
+      "kayan_pseo_template_id": "",
+      "kayan_pseo_source": "",
+      "kayan_pseo_locked_slug": "",
+      "kayan_pseo_media": [],
+      "kayan_workflow_state": "draft"
+    },
+    "cities": [],
+    "service_categories": [],
+    "permalink_template": "https://elsaidey-lawyer.tanceq.com/services/%pagename%/",
+    "generated_slug": "محامٍ-في-طلخا-والمنصورة",
+    "class_list": [
+      "post-167",
+      "services",
+      "type-services",
+      "status-publish",
+      "hentry"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/services/167",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/services"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/types/services"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/media?parent=167"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "cities",
+          "embeddable": true,
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/cities?post=167"
+        },
+        {
+          "taxonomy": "service_categories",
+          "embeddable": true,
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/service_categories?post=167"
+        }
+      ],
+      "wp:action-publish": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/services/167"
+        }
+      ],
+      "wp:action-unfiltered-html": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/services/167"
+        }
+      ],
+      "wp:action-create-cities": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/services/167"
+        }
+      ],
+      "wp:action-assign-cities": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/services/167"
+        }
+      ],
+      "wp:action-create-service_categories": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/services/167"
+        }
+      ],
+      "wp:action-assign-service_categories": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/services/167"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 166,
+    "date": "2026-10-17T13:00:26",
+    "date_gmt": "2026-10-17T13:00:26",
+    "guid": {
+      "rendered": "https://elsaidey-lawyer.tanceq.com/services/legal-consultations/",
+      "raw": "https://elsaidey-lawyer.tanceq.com/services/legal-consultations/"
+    },
+    "modified": "2026-10-17T13:00:26",
+    "modified_gmt": "2026-10-17T13:00:26",
+    "password": "",
+    "slug": "legal-consultations",
+    "status": "publish",
+    "type": "services",
+    "link": "https://elsaidey-lawyer.tanceq.com/services/legal-consultations/",
+    "title": {
+      "raw": "الاستشارات القانونية",
+      "rendered": "الاستشارات القانونية"
+    },
+    "content": {
+      "raw": "<!-- wp:paragraph --><p>صفحة التفاصيل: <a href=\"https://elsaidey-lawyer.tanceq.com/legal-services/legal-consultations/\">https://elsaidey-lawyer.tanceq.com/legal-services/legal-consultations/</a></p><!-- /wp:paragraph -->",
+      "rendered": "<p class=\"wp-block-paragraph\">صفحة التفاصيل: <a href=\"https://elsaidey-lawyer.tanceq.com/legal-services/legal-consultations/\">https://elsaidey-lawyer.tanceq.com/legal-services/legal-consultations/</a></p>",
+      "protected": false,
+      "block_version": 1
+    },
+    "excerpt": {
+      "raw": "",
+      "rendered": "<p>صفحة التفاصيل: https://elsaidey-lawyer.tanceq.com/legal-services/legal-consultations/</p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "menu_order": 0,
+    "template": "",
+    "meta": {
+      "kayan_content_lang": "",
+      "kayan_translation_group": "",
+      "kayan_variant_group": "",
+      "kayan_public_slug": "",
+      "kayan_content_visibility": "",
+      "kayan_locale_seo": [],
+      "kayan_pseo_fingerprint": "",
+      "kayan_pseo_pattern_id": "",
+      "kayan_pseo_entities": [],
+      "kayan_pseo_rule_id": "",
+      "kayan_pseo_blueprint": [],
+      "kayan_pseo_template_id": "",
+      "kayan_pseo_source": "",
+      "kayan_pseo_locked_slug": "",
+      "kayan_pseo_media": [],
+      "kayan_workflow_state": "draft"
+    },
+    "cities": [],
+    "service_categories": [],
+    "permalink_template": "https://elsaidey-lawyer.tanceq.com/services/%pagename%/",
+    "generated_slug": "الاستشارات-القانونية",
+    "class_list": [
+      "post-166",
+      "services",
+      "type-services",
+      "status-publish",
+      "hentry"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/services/166",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/services"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/types/services"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/media?parent=166"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "cities",
+          "embeddable": true,
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/cities?post=166"
+        },
+        {
+          "taxonomy": "service_categories",
+          "embeddable": true,
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/service_categories?post=166"
+        }
+      ],
+      "wp:action-publish": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/services/166"
+        }
+      ],
+      "wp:action-unfiltered-html": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/services/166"
+        }
+      ],
+      "wp:action-create-cities": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/services/166"
+        }
+      ],
+      "wp:action-assign-cities": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/services/166"
+        }
+      ],
+      "wp:action-create-service_categories": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/services/166"
+        }
+      ],
+      "wp:action-assign-service_categories": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/services/166"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 165,
+    "date": "2026-10-17T13:00:24",
+    "date_gmt": "2026-10-17T13:00:24",
+    "guid": {
+      "rendered": "https://elsaidey-lawyer.tanceq.com/services/appeals-cassation/",
+      "raw": "https://elsaidey-lawyer.tanceq.com/services/appeals-cassation/"
+    },
+    "modified": "2026-10-17T13:00:24",
+    "modified_gmt": "2026-10-17T13:00:24",
+    "password": "",
+    "slug": "appeals-cassation",
+    "status": "publish",
+    "type": "services",
+    "link": "https://elsaidey-lawyer.tanceq.com/services/appeals-cassation/",
+    "title": {
+      "raw": "الاستئناف والنقض ومجلس الدولة",
+      "rendered": "الاستئناف والنقض ومجلس الدولة"
+    },
+    "content": {
+      "raw": "<!-- wp:paragraph --><p>صفحة التفاصيل: <a href=\"https://elsaidey-lawyer.tanceq.com/legal-services/appeals-cassation/\">https://elsaidey-lawyer.tanceq.com/legal-services/appeals-cassation/</a></p><!-- /wp:paragraph -->",
+      "rendered": "<p class=\"wp-block-paragraph\">صفحة التفاصيل: <a href=\"https://elsaidey-lawyer.tanceq.com/legal-services/appeals-cassation/\">https://elsaidey-lawyer.tanceq.com/legal-services/appeals-cassation/</a></p>",
+      "protected": false,
+      "block_version": 1
+    },
+    "excerpt": {
+      "raw": "",
+      "rendered": "<p>صفحة التفاصيل: https://elsaidey-lawyer.tanceq.com/legal-services/appeals-cassation/</p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "menu_order": 0,
+    "template": "",
+    "meta": {
+      "kayan_content_lang": "",
+      "kayan_translation_group": "",
+      "kayan_variant_group": "",
+      "kayan_public_slug": "",
+      "kayan_content_visibility": "",
+      "kayan_locale_seo": [],
+      "kayan_pseo_fingerprint": "",
+      "kayan_pseo_pattern_id": "",
+      "kayan_pseo_entities": [],
+      "kayan_pseo_rule_id": "",
+      "kayan_pseo_blueprint": [],
+      "kayan_pseo_template_id": "",
+      "kayan_pseo_source": "",
+      "kayan_pseo_locked_slug": "",
+      "kayan_pseo_media": [],
+      "kayan_workflow_state": "draft"
+    },
+    "cities": [],
+    "service_categories": [],
+    "permalink_template": "https://elsaidey-lawyer.tanceq.com/services/%pagename%/",
+    "generated_slug": "الاستئناف-والنقض-ومجلس-الدولة",
+    "class_list": [
+      "post-165",
+      "services",
+      "type-services",
+      "status-publish",
+      "hentry"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/services/165",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/services"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/types/services"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/media?parent=165"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "cities",
+          "embeddable": true,
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/cities?post=165"
+        },
+        {
+          "taxonomy": "service_categories",
+          "embeddable": true,
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/service_categories?post=165"
+        }
+      ],
+      "wp:action-publish": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/services/165"
+        }
+      ],
+      "wp:action-unfiltered-html": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/services/165"
+        }
+      ],
+      "wp:action-create-cities": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/services/165"
+        }
+      ],
+      "wp:action-assign-cities": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/services/165"
+        }
+      ],
+      "wp:action-create-service_categories": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/services/165"
+        }
+      ],
+      "wp:action-assign-service_categories": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/services/165"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 164,
+    "date": "2026-10-17T13:00:21",
+    "date_gmt": "2026-10-17T13:00:21",
+    "guid": {
+      "rendered": "https://elsaidey-lawyer.tanceq.com/services/prosecution-investigations/",
+      "raw": "https://elsaidey-lawyer.tanceq.com/services/prosecution-investigations/"
+    },
+    "modified": "2026-10-17T13:00:21",
+    "modified_gmt": "2026-10-17T13:00:21",
+    "password": "",
+    "slug": "prosecution-investigations",
+    "status": "publish",
+    "type": "services",
+    "link": "https://elsaidey-lawyer.tanceq.com/services/prosecution-investigations/",
+    "title": {
+      "raw": "النيابة والتحقيقات",
+      "rendered": "النيابة والتحقيقات"
+    },
+    "content": {
+      "raw": "<!-- wp:paragraph --><p>صفحة التفاصيل: <a href=\"https://elsaidey-lawyer.tanceq.com/legal-services/prosecution-investigations/\">https://elsaidey-lawyer.tanceq.com/legal-services/prosecution-investigations/</a></p><!-- /wp:paragraph -->",
+      "rendered": "<p class=\"wp-block-paragraph\">صفحة التفاصيل: <a href=\"https://elsaidey-lawyer.tanceq.com/legal-services/prosecution-investigations/\">https://elsaidey-lawyer.tanceq.com/legal-services/prosecution-investigations/</a></p>",
+      "protected": false,
+      "block_version": 1
+    },
+    "excerpt": {
+      "raw": "",
+      "rendered": "<p>صفحة التفاصيل: https://elsaidey-lawyer.tanceq.com/legal-services/prosecution-investigations/</p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "menu_order": 0,
+    "template": "",
+    "meta": {
+      "kayan_content_lang": "",
+      "kayan_translation_group": "",
+      "kayan_variant_group": "",
+      "kayan_public_slug": "",
+      "kayan_content_visibility": "",
+      "kayan_locale_seo": [],
+      "kayan_pseo_fingerprint": "",
+      "kayan_pseo_pattern_id": "",
+      "kayan_pseo_entities": [],
+      "kayan_pseo_rule_id": "",
+      "kayan_pseo_blueprint": [],
+      "kayan_pseo_template_id": "",
+      "kayan_pseo_source": "",
+      "kayan_pseo_locked_slug": "",
+      "kayan_pseo_media": [],
+      "kayan_workflow_state": "draft"
+    },
+    "cities": [],
+    "service_categories": [],
+    "permalink_template": "https://elsaidey-lawyer.tanceq.com/services/%pagename%/",
+    "generated_slug": "النيابة-والتحقيقات",
+    "class_list": [
+      "post-164",
+      "services",
+      "type-services",
+      "status-publish",
+      "hentry"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/services/164",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/services"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/types/services"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/media?parent=164"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "cities",
+          "embeddable": true,
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/cities?post=164"
+        },
+        {
+          "taxonomy": "service_categories",
+          "embeddable": true,
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/service_categories?post=164"
+        }
+      ],
+      "wp:action-publish": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/services/164"
+        }
+      ],
+      "wp:action-unfiltered-html": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/services/164"
+        }
+      ],
+      "wp:action-create-cities": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/services/164"
+        }
+      ],
+      "wp:action-assign-cities": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/services/164"
+        }
+      ],
+      "wp:action-create-service_categories": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/services/164"
+        }
+      ],
+      "wp:action-assign-service_categories": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/services/164"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 163,
+    "date": "2026-10-17T13:00:19",
+    "date_gmt": "2026-10-17T13:00:19",
+    "guid": {
+      "rendered": "https://elsaidey-lawyer.tanceq.com/services/contracts-disputes/",
+      "raw": "https://elsaidey-lawyer.tanceq.com/services/contracts-disputes/"
+    },
+    "modified": "2026-10-17T13:00:19",
+    "modified_gmt": "2026-10-17T13:00:19",
+    "password": "",
+    "slug": "contracts-disputes",
+    "status": "publish",
+    "type": "services",
+    "link": "https://elsaidey-lawyer.tanceq.com/services/contracts-disputes/",
+    "title": {
+      "raw": "العقود والمنازعات التعاقدية",
+      "rendered": "العقود والمنازعات التعاقدية"
+    },
+    "content": {
+      "raw": "<!-- wp:paragraph --><p>صفحة التفاصيل: <a href=\"https://elsaidey-lawyer.tanceq.com/legal-services/contracts-disputes/\">https://elsaidey-lawyer.tanceq.com/legal-services/contracts-disputes/</a></p><!-- /wp:paragraph -->",
+      "rendered": "<p class=\"wp-block-paragraph\">صفحة التفاصيل: <a href=\"https://elsaidey-lawyer.tanceq.com/legal-services/contracts-disputes/\">https://elsaidey-lawyer.tanceq.com/legal-services/contracts-disputes/</a></p>",
+      "protected": false,
+      "block_version": 1
+    },
+    "excerpt": {
+      "raw": "",
+      "rendered": "<p>صفحة التفاصيل: https://elsaidey-lawyer.tanceq.com/legal-services/contracts-disputes/</p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "menu_order": 0,
+    "template": "",
+    "meta": {
+      "kayan_content_lang": "",
+      "kayan_translation_group": "",
+      "kayan_variant_group": "",
+      "kayan_public_slug": "",
+      "kayan_content_visibility": "",
+      "kayan_locale_seo": [],
+      "kayan_pseo_fingerprint": "",
+      "kayan_pseo_pattern_id": "",
+      "kayan_pseo_entities": [],
+      "kayan_pseo_rule_id": "",
+      "kayan_pseo_blueprint": [],
+      "kayan_pseo_template_id": "",
+      "kayan_pseo_source": "",
+      "kayan_pseo_locked_slug": "",
+      "kayan_pseo_media": [],
+      "kayan_workflow_state": "draft"
+    },
+    "cities": [],
+    "service_categories": [],
+    "permalink_template": "https://elsaidey-lawyer.tanceq.com/services/%pagename%/",
+    "generated_slug": "العقود-والمنازعات-التعاقدية",
+    "class_list": [
+      "post-163",
+      "services",
+      "type-services",
+      "status-publish",
+      "hentry"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/services/163",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/services"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/types/services"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/media?parent=163"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "cities",
+          "embeddable": true,
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/cities?post=163"
+        },
+        {
+          "taxonomy": "service_categories",
+          "embeddable": true,
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/service_categories?post=163"
+        }
+      ],
+      "wp:action-publish": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/services/163"
+        }
+      ],
+      "wp:action-unfiltered-html": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/services/163"
+        }
+      ],
+      "wp:action-create-cities": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/services/163"
+        }
+      ],
+      "wp:action-assign-cities": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/services/163"
+        }
+      ],
+      "wp:action-create-service_categories": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/services/163"
+        }
+      ],
+      "wp:action-assign-service_categories": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/services/163"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 162,
+    "date": "2026-10-17T13:00:17",
+    "date_gmt": "2026-10-17T13:00:17",
+    "guid": {
+      "rendered": "https://elsaidey-lawyer.tanceq.com/services/commercial-law/",
+      "raw": "https://elsaidey-lawyer.tanceq.com/services/commercial-law/"
+    },
+    "modified": "2026-10-17T13:00:17",
+    "modified_gmt": "2026-10-17T13:00:17",
+    "password": "",
+    "slug": "commercial-law",
+    "status": "publish",
+    "type": "services",
+    "link": "https://elsaidey-lawyer.tanceq.com/services/commercial-law/",
+    "title": {
+      "raw": "القضايا التجارية وتأسيس الشركات",
+      "rendered": "القضايا التجارية وتأسيس الشركات"
+    },
+    "content": {
+      "raw": "<!-- wp:paragraph --><p>صفحة التفاصيل: <a href=\"https://elsaidey-lawyer.tanceq.com/legal-services/commercial-law/\">https://elsaidey-lawyer.tanceq.com/legal-services/commercial-law/</a></p><!-- /wp:paragraph -->",
+      "rendered": "<p class=\"wp-block-paragraph\">صفحة التفاصيل: <a href=\"https://elsaidey-lawyer.tanceq.com/legal-services/commercial-law/\">https://elsaidey-lawyer.tanceq.com/legal-services/commercial-law/</a></p>",
+      "protected": false,
+      "block_version": 1
+    },
+    "excerpt": {
+      "raw": "",
+      "rendered": "<p>صفحة التفاصيل: https://elsaidey-lawyer.tanceq.com/legal-services/commercial-law/</p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "menu_order": 0,
+    "template": "",
+    "meta": {
+      "kayan_content_lang": "",
+      "kayan_translation_group": "",
+      "kayan_variant_group": "",
+      "kayan_public_slug": "",
+      "kayan_content_visibility": "",
+      "kayan_locale_seo": [],
+      "kayan_pseo_fingerprint": "",
+      "kayan_pseo_pattern_id": "",
+      "kayan_pseo_entities": [],
+      "kayan_pseo_rule_id": "",
+      "kayan_pseo_blueprint": [],
+      "kayan_pseo_template_id": "",
+      "kayan_pseo_source": "",
+      "kayan_pseo_locked_slug": "",
+      "kayan_pseo_media": [],
+      "kayan_workflow_state": "draft"
+    },
+    "cities": [],
+    "service_categories": [],
+    "permalink_template": "https://elsaidey-lawyer.tanceq.com/services/%pagename%/",
+    "generated_slug": "القضايا-التجارية-وتأسيس-الشركات",
+    "class_list": [
+      "post-162",
+      "services",
+      "type-services",
+      "status-publish",
+      "hentry"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/services/162",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/services"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/types/services"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/media?parent=162"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "cities",
+          "embeddable": true,
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/cities?post=162"
+        },
+        {
+          "taxonomy": "service_categories",
+          "embeddable": true,
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/service_categories?post=162"
+        }
+      ],
+      "wp:action-publish": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/services/162"
+        }
+      ],
+      "wp:action-unfiltered-html": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/services/162"
+        }
+      ],
+      "wp:action-create-cities": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/services/162"
+        }
+      ],
+      "wp:action-assign-cities": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/services/162"
+        }
+      ],
+      "wp:action-create-service_categories": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/services/162"
+        }
+      ],
+      "wp:action-assign-service_categories": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/services/162"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 161,
+    "date": "2026-10-17T13:00:14",
+    "date_gmt": "2026-10-17T13:00:14",
+    "guid": {
+      "rendered": "https://elsaidey-lawyer.tanceq.com/services/civil-cases/",
+      "raw": "https://elsaidey-lawyer.tanceq.com/services/civil-cases/"
+    },
+    "modified": "2026-10-17T13:00:14",
+    "modified_gmt": "2026-10-17T13:00:14",
+    "password": "",
+    "slug": "civil-cases",
+    "status": "publish",
+    "type": "services",
+    "link": "https://elsaidey-lawyer.tanceq.com/services/civil-cases/",
+    "title": {
+      "raw": "القضايا المدنية والتعويضات",
+      "rendered": "القضايا المدنية والتعويضات"
+    },
+    "content": {
+      "raw": "<!-- wp:paragraph --><p>صفحة التفاصيل: <a href=\"https://elsaidey-lawyer.tanceq.com/legal-services/civil-cases/\">https://elsaidey-lawyer.tanceq.com/legal-services/civil-cases/</a></p><!-- /wp:paragraph -->",
+      "rendered": "<p class=\"wp-block-paragraph\">صفحة التفاصيل: <a href=\"https://elsaidey-lawyer.tanceq.com/legal-services/civil-cases/\">https://elsaidey-lawyer.tanceq.com/legal-services/civil-cases/</a></p>",
+      "protected": false,
+      "block_version": 1
+    },
+    "excerpt": {
+      "raw": "",
+      "rendered": "<p>صفحة التفاصيل: https://elsaidey-lawyer.tanceq.com/legal-services/civil-cases/</p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "menu_order": 0,
+    "template": "",
+    "meta": {
+      "kayan_content_lang": "",
+      "kayan_translation_group": "",
+      "kayan_variant_group": "",
+      "kayan_public_slug": "",
+      "kayan_content_visibility": "",
+      "kayan_locale_seo": [],
+      "kayan_pseo_fingerprint": "",
+      "kayan_pseo_pattern_id": "",
+      "kayan_pseo_entities": [],
+      "kayan_pseo_rule_id": "",
+      "kayan_pseo_blueprint": [],
+      "kayan_pseo_template_id": "",
+      "kayan_pseo_source": "",
+      "kayan_pseo_locked_slug": "",
+      "kayan_pseo_media": [],
+      "kayan_workflow_state": "draft"
+    },
+    "cities": [],
+    "service_categories": [],
+    "permalink_template": "https://elsaidey-lawyer.tanceq.com/services/%pagename%/",
+    "generated_slug": "القضايا-المدنية-والتعويضات",
+    "class_list": [
+      "post-161",
+      "services",
+      "type-services",
+      "status-publish",
+      "hentry"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/services/161",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/services"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/types/services"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/media?parent=161"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "cities",
+          "embeddable": true,
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/cities?post=161"
+        },
+        {
+          "taxonomy": "service_categories",
+          "embeddable": true,
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/service_categories?post=161"
+        }
+      ],
+      "wp:action-publish": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/services/161"
+        }
+      ],
+      "wp:action-unfiltered-html": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/services/161"
+        }
+      ],
+      "wp:action-create-cities": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/services/161"
+        }
+      ],
+      "wp:action-assign-cities": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/services/161"
+        }
+      ],
+      "wp:action-create-service_categories": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/services/161"
+        }
+      ],
+      "wp:action-assign-service_categories": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/services/161"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 160,
+    "date": "2026-10-17T13:00:11",
+    "date_gmt": "2026-10-17T13:00:11",
+    "guid": {
+      "rendered": "https://elsaidey-lawyer.tanceq.com/services/family-law/",
+      "raw": "https://elsaidey-lawyer.tanceq.com/services/family-law/"
+    },
+    "modified": "2026-10-17T13:00:11",
+    "modified_gmt": "2026-10-17T13:00:11",
+    "password": "",
+    "slug": "family-law",
+    "status": "publish",
+    "type": "services",
+    "link": "https://elsaidey-lawyer.tanceq.com/services/family-law/",
+    "title": {
+      "raw": "قضايا الأسرة والأحوال الشخصية",
+      "rendered": "قضايا الأسرة والأحوال الشخصية"
+    },
+    "content": {
+      "raw": "<!-- wp:paragraph --><p>صفحة التفاصيل: <a href=\"https://elsaidey-lawyer.tanceq.com/legal-services/family-law/\">https://elsaidey-lawyer.tanceq.com/legal-services/family-law/</a></p><!-- /wp:paragraph -->",
+      "rendered": "<p class=\"wp-block-paragraph\">صفحة التفاصيل: <a href=\"https://elsaidey-lawyer.tanceq.com/legal-services/family-law/\">https://elsaidey-lawyer.tanceq.com/legal-services/family-law/</a></p>",
+      "protected": false,
+      "block_version": 1
+    },
+    "excerpt": {
+      "raw": "",
+      "rendered": "<p>صفحة التفاصيل: https://elsaidey-lawyer.tanceq.com/legal-services/family-law/</p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "menu_order": 0,
+    "template": "",
+    "meta": {
+      "kayan_content_lang": "",
+      "kayan_translation_group": "",
+      "kayan_variant_group": "",
+      "kayan_public_slug": "",
+      "kayan_content_visibility": "",
+      "kayan_locale_seo": [],
+      "kayan_pseo_fingerprint": "",
+      "kayan_pseo_pattern_id": "",
+      "kayan_pseo_entities": [],
+      "kayan_pseo_rule_id": "",
+      "kayan_pseo_blueprint": [],
+      "kayan_pseo_template_id": "",
+      "kayan_pseo_source": "",
+      "kayan_pseo_locked_slug": "",
+      "kayan_pseo_media": [],
+      "kayan_workflow_state": "draft"
+    },
+    "cities": [],
+    "service_categories": [],
+    "permalink_template": "https://elsaidey-lawyer.tanceq.com/services/%pagename%/",
+    "generated_slug": "قضايا-الأسرة-والأحوال-الشخصية",
+    "class_list": [
+      "post-160",
+      "services",
+      "type-services",
+      "status-publish",
+      "hentry"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/services/160",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/services"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/types/services"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/media?parent=160"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "cities",
+          "embeddable": true,
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/cities?post=160"
+        },
+        {
+          "taxonomy": "service_categories",
+          "embeddable": true,
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/service_categories?post=160"
+        }
+      ],
+      "wp:action-publish": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/services/160"
+        }
+      ],
+      "wp:action-unfiltered-html": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/services/160"
+        }
+      ],
+      "wp:action-create-cities": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/services/160"
+        }
+      ],
+      "wp:action-assign-cities": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/services/160"
+        }
+      ],
+      "wp:action-create-service_categories": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/services/160"
+        }
+      ],
+      "wp:action-assign-service_categories": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/services/160"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 159,
+    "date": "2026-10-17T13:00:08",
+    "date_gmt": "2026-10-17T13:00:08",
+    "guid": {
+      "rendered": "https://elsaidey-lawyer.tanceq.com/services/criminal-cases/",
+      "raw": "https://elsaidey-lawyer.tanceq.com/services/criminal-cases/"
+    },
+    "modified": "2026-10-17T13:00:08",
+    "modified_gmt": "2026-10-17T13:00:08",
+    "password": "",
+    "slug": "criminal-cases",
+    "status": "publish",
+    "type": "services",
+    "link": "https://elsaidey-lawyer.tanceq.com/services/criminal-cases/",
+    "title": {
+      "raw": "القضايا الجنائية والدفاع الجنائي",
+      "rendered": "القضايا الجنائية والدفاع الجنائي"
+    },
+    "content": {
+      "raw": "<!-- wp:paragraph --><p>صفحة التفاصيل: <a href=\"https://elsaidey-lawyer.tanceq.com/legal-services/criminal-cases/\">https://elsaidey-lawyer.tanceq.com/legal-services/criminal-cases/</a></p><!-- /wp:paragraph -->",
+      "rendered": "<p class=\"wp-block-paragraph\">صفحة التفاصيل: <a href=\"https://elsaidey-lawyer.tanceq.com/legal-services/criminal-cases/\">https://elsaidey-lawyer.tanceq.com/legal-services/criminal-cases/</a></p>",
+      "protected": false,
+      "block_version": 1
+    },
+    "excerpt": {
+      "raw": "",
+      "rendered": "<p>صفحة التفاصيل: https://elsaidey-lawyer.tanceq.com/legal-services/criminal-cases/</p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "menu_order": 0,
+    "template": "",
+    "meta": {
+      "kayan_content_lang": "",
+      "kayan_translation_group": "",
+      "kayan_variant_group": "",
+      "kayan_public_slug": "",
+      "kayan_content_visibility": "",
+      "kayan_locale_seo": [],
+      "kayan_pseo_fingerprint": "",
+      "kayan_pseo_pattern_id": "",
+      "kayan_pseo_entities": [],
+      "kayan_pseo_rule_id": "",
+      "kayan_pseo_blueprint": [],
+      "kayan_pseo_template_id": "",
+      "kayan_pseo_source": "",
+      "kayan_pseo_locked_slug": "",
+      "kayan_pseo_media": [],
+      "kayan_workflow_state": "draft"
+    },
+    "cities": [],
+    "service_categories": [],
+    "permalink_template": "https://elsaidey-lawyer.tanceq.com/services/%pagename%/",
+    "generated_slug": "القضايا-الجنائية-والدفاع-الجنائي",
+    "class_list": [
+      "post-159",
+      "services",
+      "type-services",
+      "status-publish",
+      "hentry"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/services/159",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/services"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/types/services"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/media?parent=159"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "cities",
+          "embeddable": true,
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/cities?post=159"
+        },
+        {
+          "taxonomy": "service_categories",
+          "embeddable": true,
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/service_categories?post=159"
+        }
+      ],
+      "wp:action-publish": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/services/159"
+        }
+      ],
+      "wp:action-unfiltered-html": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/services/159"
+        }
+      ],
+      "wp:action-create-cities": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/services/159"
+        }
+      ],
+      "wp:action-assign-cities": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/services/159"
+        }
+      ],
+      "wp:action-create-service_categories": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/services/159"
+        }
+      ],
+      "wp:action-assign-service_categories": [
+        {
+          "href": "https://elsaidey-lawyer.tanceq.com/wp-json/wp/v2/services/159"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  }
+]
